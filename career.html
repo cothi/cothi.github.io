@@ -2,14 +2,15 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>han jiung</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
+<title>qwe</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
@@ -77,6 +78,7 @@ div.hr:focus { cursor: none; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
 li { margin: 0px; position: relative; }
 blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
@@ -86,7 +88,6 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
-  html.blink-to-pdf { font-size: 13px; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
@@ -100,6 +101,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 #write .MathJax_Display { margin: 0.8em 0px 0px; }
 .md-math-block { width: 100%; }
 .md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
 [contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
 .md-task-list-item { position: relative; list-style-type: none; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
@@ -150,13 +152,16 @@ table tr th { border-bottom-width: 0px; }
 video { max-width: 100%; display: block; margin: 0px auto; }
 iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
-svg[id^="mermaidChart"] { line-height: 1em; }
 mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-position: initial initial; background-repeat: initial initial; }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 @media print { 
   .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
 }
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignObject { font-size: var(--mermaid-font-zoom); }
 
 
 @import '';
@@ -2340,10 +2345,10 @@ p[type='description'] {
 }
 
 
-
+ :root {--mermaid-font-zoom:1em ;} 
 </style>
 </head>
 <body class='typora-export'>
-<div id='write'  class=''><h2><a name="han-jiung" class="md-header-anchor"></a><span>Han Jiung</span></h2><p>&nbsp;</p><p><span>컴퓨터 관련 공부를 진행하고 있으며, 현재는 </span><strong><span>개인 작품 제작중</span></strong><span>에 있습니다.</span></p><p>&nbsp;</p><hr /><h3><a name="목차" class="md-header-anchor"></a><span>목차</span></h3><p>&nbsp;</p><p><a href='#education'><span>Education</span></a></p><p><a href='#training-course'><span>Training Course</span></a></p><p><a href='#awards'><span>Awards</span></a></p><p><a href='#certificate'><span>Certificate</span></a></p><p>&nbsp;</p><hr /><p>&nbsp;</p><h3><a name="education" class="md-header-anchor"></a><span>Education</span></h3><p>&nbsp;</p><ul><li><p><span>Lifelong CHUNG-ANG UNIVERSITY</span></p><ul><li><span> Computer Engineering BS (2019.02 ~ 2021.02)</span></li></ul></li></ul><p>&nbsp;</p><hr /><p>&nbsp;</p><h3><a name="training-course" class="md-header-anchor"></a><span>Training Course</span></h3><p>&nbsp;</p><ul><li><span>National Information Society Agency(NIA), Data Creator Camp (2020.09.26)</span></li><li><span>AI Yangjae Hub, Embedded deep learning process using JETSON TX2 (2020.09.02 ~ 04)</span></li><li><span>Korea Computing Industry Association(K-CIA), Pytorch - Artificial Neural Network Deep Learning Model Development (2020.08.26 ~ 28)</span></li><li><span>National IT Promotion Agency(nipa), Utilize AI Technology (2020.07 ~ 08 )</span></li><li><span>Game User Protection Center(GUCC), Blockchain LV.99 (2020.01.17~23)</span></li></ul><ul><li><span>National IT Promotion Agency(nipa), AI Visual process (2020.12.15 ~ 2020.12.30)</span></li></ul><p>&nbsp;</p><hr /><h2><a name="awards" class="md-header-anchor"></a><span>Awards </span></h2><p>&nbsp;</p><ul><li><p><span>Game User Protection Center, Blockchain Manrap Competition</span></p><ul><li><span>Second place. </span><a href='http://gamefocus.co.kr/detail.php?number=102179'><span>ref</span></a></li></ul></li></ul><p>&nbsp;</p><hr /><p>&nbsp;</p><h3><a name="certificate" class="md-header-anchor"></a><span>Certificate</span></h3><p>&nbsp;</p><ul><li><p><span>KCCI LICENSE</span></p><ul><li><span>Computer User in the field of Spreadsheet &amp; Database Level - 1</span></li></ul></li></ul><ul><li><p><span>ICQA LICENSE</span></p><ul><li><span>Network Manager Level 2</span></li></ul></li></ul><p>&nbsp;</p><p>&nbsp;</p><p><a href='https://hanjiung.github.io/'><span>Home</span></a><span> 으로 돌아가는 링크 입니다.</span></p><p>&nbsp;</p></div>
+<div id='write'  class=''><h2><a name="han-jiung" class="md-header-anchor"></a><span>Han Jiung</span></h2><p>&nbsp;</p><p><span>컴퓨터 관련 공부를 진행하고 있으며, 현재는 </span><strong><span>개인 작품 제작중</span></strong><span>에 있습니다.</span></p><p>&nbsp;</p><hr /><h3><a name="목차" class="md-header-anchor"></a><span>목차</span></h3><p>&nbsp;</p><p><a href='#education'><span>Education</span></a></p><p><a href='#training-course'><span>Training Course</span></a></p><p><a href='#awards'><span>Awards</span></a></p><p><a href='#certificate'><span>Certificate</span></a></p><p><a href='#project'><span>Project</span></a></p><hr /><p>&nbsp;</p><h3><a name="education" class="md-header-anchor"></a><span>Education</span></h3><p>&nbsp;</p><ul><li><p><span>Lifelong CHUNG-ANG UNIVERSITY</span></p><ul><li><span>Computer Engineering BS (2019.02 ~ 2021.02)</span></li></ul></li></ul><p>&nbsp;</p><hr /><p>&nbsp;</p><h3><a name="training-course" class="md-header-anchor"></a><span>Training Course</span></h3><p>&nbsp;</p><ul><li><span>National Information Society Agency(NIA), Data Creator Camp (2020.09.26)</span></li><li><span>AI Yangjae Hub, Embedded deep learning process using JETSON TX2 (2020.09.02 ~ 04)</span></li><li><span>Korea Computing Industry Association(K-CIA), Pytorch - Artificial Neural Network Deep Learning Model Development (2020.08.26 ~ 28)</span></li><li><span>National IT Promotion Agency(nipa), Utilize AI Technology (2020.07 ~ 08 )</span></li><li><span>Game User Protection Center(GUCC), Blockchain LV.99 (2020.01.17~23)</span></li><li><span>National IT Promotion Agency(nipa), AI Visual process (2020.12.15 ~ 2020.12.30)</span></li></ul><p>&nbsp;</p><hr /><h2><a name="awards" class="md-header-anchor"></a><span>Awards </span></h2><p>&nbsp;</p><ul><li><p><span>Game User Protection Center, Blockchain Manrap Competition</span></p><ul><li><span>Second place. </span><a href='http://gamefocus.co.kr/detail.php?number=102179'><span>ref</span></a></li></ul></li></ul><p>&nbsp;</p><hr /><p>&nbsp;</p><h3><a name="certificate" class="md-header-anchor"></a><span>Certificate</span></h3><p>&nbsp;</p><ul><li><p><span>KCCI LICENSE</span></p><ul><li><span>Computer User in the field of Spreadsheet &amp; Database Level - 1</span></li></ul></li><li><p><span>ICQA LICENSE</span></p><ul><li><span>Network Manager Level 2</span></li></ul></li></ul><p>&nbsp;</p><hr /><h3><a name="project" class="md-header-anchor"></a><span>Project</span></h3><p>&nbsp;</p><ol><li><span>Automatic Click</span></li></ol><p><img src="https://github.com/hanjiung/ToyProject/blob/main/clickGame/TestImage/automaticClick.gif" alt="Databay showcase gif" title="Databay showcase gif" width="500"/></p><blockquote><p><span>A project using the Python library that automatically finds and clicks the image</span></p></blockquote><p>&nbsp;</p><p>&nbsp;</p><p><a href='https://hanjiung.github.io/'><span>Home</span></a><span> 으로 돌아가는 링크 입니다.</span></p><p>&nbsp;</p></div>
 </body>
 </html>
