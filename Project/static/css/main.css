@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap");
+* {
+  background-color: #EBDEF0;
+  font-family: 'Sunflower', sans-serif; }
+
+.LottoFrame {
+  font-size: 20px; }

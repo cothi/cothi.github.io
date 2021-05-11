@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Sunflower:wght@300&display=swap');
+/******************************
+ *      Initialized CSS
+ ******************************/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F6FE;
+    font-family: 'Sunflower', sans-serif;
+
+}
+
+
+/******************************
+ *       Navigation CSS       
+ ******************************/
+.navigation {
+    position: fixed;
+    background-color: #AFCCFA;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    -webkit-box-shadow: 2px 3px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 3px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 3px 5px 0px rgba(50, 50, 50, 0.75);
+    transition: 0.3s;
+    overflow-y: hidden;
+}
+
+.NaviClick {
+    position: relative;
+    display: inline-block;
+    left: 95%;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.navigation a {
+    color: black;
+    margin-top: 10px;
+    font-size: 28px;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+/******************************
+ *      BODY CSS
+ ******************************/
+
+#main {
+    padding-top: 120px;
+    transition: 0.3s;
+}
