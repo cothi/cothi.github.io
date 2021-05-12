@@ -2,9 +2,7 @@
 
 
 
-컴퓨터 관련 공부에 흥미를 느끼고 있습니다.
-
-현재는 K-Shield Jr. 6기 보안사고분석대응 과정을 진행하고 있습니다.
+ K-Shield Jr. 6기 보안사고분석대응 과정 진행 (2021.03 ~ )
 
 ***
 
@@ -104,11 +102,33 @@
 
 
 
-2. Platform (다양한 기능 제공)
+2. Platform ( 중단 )
    - http://wooong-dev.kro.kr
 
 > A project that provides various functions and can be enjoyed (currently in production)
 
  
+
+3. cls-Color-List-Show
+   - [sourceLink](https://github.com/hanjiung/cls-Color-List-Show)
+
+> You can divide files and folders with the cls command.
+
+
+
+4. Server-agent-system (GUI)
+   - [sourceLink](https://github.com/hanjiung/server-angent-system)
+
+> Work created with a graphic interface related to malicious code
+
+
+
+
+
+```
+I am having fun with computer related work.
+```
+
+
 
 [Home](https://hanjiung.github.io/) 으로 돌아가는 링크 입니다.
