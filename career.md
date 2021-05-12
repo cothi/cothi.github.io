@@ -4,7 +4,7 @@
 
 컴퓨터 관련 공부에 흥미를 느끼고 있습니다.
 
-현재는 K-Shield Jr. 6기 보안사고분석대응 과정을 진행하고 있습니다.
+ K-Shield Jr. 6기 보안사고분석대응 과정 진행 ~
 
 ***
 
@@ -110,5 +110,9 @@
 > A project that provides various functions and can be enjoyed (currently in production)
 
  
+
+3. Cls-
+
+
 
 [Home](https://hanjiung.github.io/) 으로 돌아가는 링크 입니다.
