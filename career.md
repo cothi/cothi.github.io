@@ -1,4 +1,6 @@
-## Han Jiung
+### Han Jiung 
+
+##### - wooong.dev
 
 
 
@@ -30,9 +32,12 @@
 
 
 
-- Lifelong CHUNG-ANG UNIVERSITY
+- Lifelong CHUNG-ANG UNIVERSITY 
   - Computer Engineering BS (2019.02 ~ 2021.02)
-
+  - Credit 4.36 / 4.5
+  
+  
+  
 - K-Shield Jr. 6기
   - 보안사고분석대응 과정 (2021.03 ~ 2021. 06)
 
@@ -66,6 +71,10 @@
 ### Awards
 
 
+
+- Jeju MBC Marathon 20th Division 42.195km 1st place
+
+- Jeju TourismMarathon 20th Division 10km 3st place
 
 - Game User Protection Center, Blockchain Manrap Competition
   - Second place. [ref](http://gamefocus.co.kr/detail.php?number=102179)
@@ -134,5 +143,5 @@ I am having fun with computer related work.
 
 
 
-[Home](https://hanjiung.github.io/) 으로 돌아가는 링크 입니다.
+[Home](https://wooongdev.github.io/) 으로 돌아가는 링크 입니다.
 
