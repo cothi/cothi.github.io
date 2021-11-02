@@ -4,7 +4,7 @@
 
 
 
-##### 현재  K-Shield Jr. 6기 보안사고분석대응 과정 진행 (2021.03 ~ )
+##### CodeStates BlockChain (2021.11 ~ 2022.04)
 
 ***
 
@@ -32,7 +32,7 @@
 
 
 
-- Lifelong CHUNG-ANG UNIVERSITY 
+-  Future education center CHUNG-ANG UNIVERSITY 
   - Computer Engineering BS (2019.02 ~ 2021.02)
   - Credit 4.36 / 4.5
   
@@ -70,14 +70,14 @@
 
 ### Awards
 
-
-
 - Jeju MBC Marathon 20th Division 42.195km 1st place
 
 - Jeju TourismMarathon 20th Division 10km 3st place
 
 - Game User Protection Center, Blockchain Manrap Competition
   - Second place. [ref](http://gamefocus.co.kr/detail.php?number=102179)
+  
+    
 
 ***
 
