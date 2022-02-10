@@ -1,6 +1,6 @@
 ### Han Jiung 
 
-##### - wooong.dev
+##### blog, wooong.dev
 
 
 
@@ -40,6 +40,12 @@
   
 - K-Shield Jr. 6기
   - 보안사고분석대응 과정 (2021.03 ~ 2021. 06)
+  
+  
+  
+- codestates beb 02기
+  
+  - 블록체인 과정 (2021. 08 ~ 2022. 04)
 
 
 ***
@@ -102,10 +108,14 @@
 
  
 
-1. Automatic Click
-   - [sourceLink](https://github.com/wooongdev/ToyProject)
+1. Automatic Click, CoinPrice
+   - [sourceLink](https://github.com/tetgo/ToyProject)
 
 >  A project using the Python library that automatically finds and clicks the image
+
+>Get price coin (medium)
+
+
 
 
 
@@ -117,21 +127,21 @@
  
 
 3. cls-Color-List-Show
-   - [sourceLink](https://github.com/wooongdev/cls-Color-List-Show)
+   - [sourceLink](https://github.com/tetgo/cls)
 
 > You can divide files and folders with the cls command.
 
 
 
 4. Server-agent-system (GUI)
-   - [sourceLink](https://github.com/wooongdev/server-angent-system)
+   - [sourceLink](https://github.com/tetgo/GUI)
 
 > Work created with a graphic interface related to malicious code
 
 
 
 5. CoinPrice
-   - [sourceLink](https://github.com/wooongdev/server-angent-system)
+   - [sourceLink](https://github.com/tetgo/wm)
 
 > Reduce the inconvenience of having to check the coin price every time
 
@@ -142,11 +152,22 @@
 
 > document malware detection
 
+
+
+7. wm (wallet maker)
+   - [sourceLink](https://github.com/tetgo/wm)
+
+> Command LIne Project, wallet maker with html , rest, just
+
+
+
+
+
 ```
 I am having fun with computer related work.
 ```
 
 
 
-[Home](https://wooongdev.github.io/) 으로 돌아가는 링크 입니다.
+[Home](https://tetgo.github.io/) 으로 돌아가는 링크 입니다.
 

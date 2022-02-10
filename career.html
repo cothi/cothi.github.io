@@ -134,7 +134,7 @@ a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; 
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
 kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
-.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
 code { text-align: left; }
 a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
@@ -307,20 +307,20 @@ span.cm-strikethrough { text-decoration: line-through; }
     --bg-color: white;
     --side-bar-bg-color: #f5f7f9;
     --control-text-color: #3b454e;
-    --primary-color: #15ac8e;
-    --primary-btn-border-color: #15ac8e;
+    --primary-color: #3884ff;
+    --primary-btn-border-color: #3884ff;
     --active-file-bg-color: #e6ecf1;
     --active-file-text-color: inherit;
-    --active-file-border-color: #15ac8e;
+    --active-file-border-color: #3884ff;
     --item-hover-text-color: #242a31;
     --item-hover-bg-color: #f5f7f9;
     --window-border: 1px solid #e6ecf1;
     --select-text-font-color: white;
-    --select-text-bg-color: #11977d;
+    --select-text-bg-color: #1968e6;
 
     --md-char-color: #9daab6;
     --heading-char-color: #9daab6;
-    --meta-content-color: #15ac8e;
+    --meta-content-color: #3884ff;
 
     --borders: #e6ecf1;
     --table-border-color: #e6ecf1;
@@ -338,10 +338,10 @@ span.cm-strikethrough { text-decoration: line-through; }
     --codeboxes-lighter: #1c375f;
     --rawblock-edit-panel-bd: transparent;
 
-    --primary-color-darkest: #083d33;
-    --primary-color-darker2: #0d5748;
-    --primary-color-darker: #11977d;
-    --focus-ring-color: #15ac8e;
+    --primary-color-darkest: #001f50;
+    --primary-color-darker2: #00307c;
+    --primary-color-darker: #1968e6;
+    --focus-ring-color: #3884ff;
 
     --danger-color: rgb(255, 70, 66);
 
@@ -363,6 +363,10 @@ html,
 .form-control,
 .modal {
     font-size: 16px;
+}
+
+kbd {
+    font-family: var(--font-family);
 }
 
 body {
@@ -514,6 +518,21 @@ h6 {
     margin-bottom: 0.5rem;
 }
 
+#write > h1.md-focus:before,
+#write > h2.md-focus:before,
+#write > h3.md-focus:before,
+#write > h4.md-focus:before,
+#write > h5.md-focus:before,
+#write > h6.md-focus:before {
+    color: var(--light-text-color);
+    border: none;
+    position: absolute;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0px;
+    line-height: 1;
+}
+
 #write > h1.md-focus:before {
     content: "h1";
     top: 1.15rem;
@@ -548,21 +567,6 @@ h6 {
     content: "h6";
     top: 0.25rem;
     left: -1.75rem;
-}
-
-#write > h1.md-focus:before,
-#write > h2.md-focus:before,
-#write > h3.md-focus:before,
-#write > h4.md-focus:before,
-#write > h5.md-focus:before,
-#write > h6.md-focus:before {
-    color: var(--light-text-color);
-    border: none;
-    position: absolute;
-    font-size: 0.9rem;
-    font-weight: 500;
-    padding: 0px;
-    line-height: 1;
 }
 
 h1:first-child,
@@ -979,7 +983,7 @@ table tr td:last-child {
 .md-fences,
 tt {
     border-radius: 0.3rem;
-    color: #ffffff;
+    color: white;
     padding: 1.5rem;
     font-size: 0.8rem;
 }
@@ -993,7 +997,7 @@ code {
     -webkit-box-decoration-break: clone;
 }
 
-.md-fences .CodeMirror div.CodeMirror-cursor,
+.md-fences div.CodeMirror-cursor,
 #typora-source div.CodeMirror-cursor {
     border-left: solid 1px white;
 }
@@ -1255,7 +1259,7 @@ input[type="checkbox"]:checked:after {
     color: #156db6;
 }
 
-.md-mathblock-input span.cm-bracket {
+.md-rawblock-input span.cm-bracket {
     color: var(--light-text-color);
 }
 
@@ -1307,14 +1311,14 @@ footer.ty-footer {
     opacity: 1;
 }
 
-.sidebar-tab {
-    text-transform: capitalize;
-    color: var(--light-text-color);
-}
-
 .info-panel-tab-border {
     color: var(--primary-color);
     border-radius: 2px;
+}
+
+.sidebar-tab {
+    text-transform: capitalize;
+    color: var(--light-text-color);
 }
 
 #ty-sidebar-search-back-btn {
@@ -1478,7 +1482,7 @@ body.html-for-mac .ty-search-item {
     margin-left: 24px;
 }
 
-body.html-for-mac #typora-sidebar .ty-search-item-line {
+body.o #typora-sidebar .ty-search-item-line {
     transition-duration: 0.2s;
 }
 
@@ -1519,16 +1523,6 @@ body.html-for-mac #typora-sidebar .ty-search-item-line {
     opacity: 0.9;
 }
 
-#typora-sidebar input.file-list-item-file-name {
-    margin: 0.5rem 0rem 0.5rem 0.7rem;
-    padding: 0.4rem !important;
-    line-height: 1rem;
-    float: right;
-    border-radius: 0.3rem;
-    font-weight: 500;
-    background-color: white !important;
-}
-
 #typora-sidebar .file-list-item-count {
     font-size: 0.75rem;
     background-color: var(--primary-color);
@@ -1540,6 +1534,16 @@ body.html-for-mac #typora-sidebar .ty-search-item-line {
     line-height: 1.25rem;
     position: relative;
     top: 0.3rem;
+}
+
+#typora-sidebar input.file-list-item-file-name {
+    margin: 0.5rem 0rem 0.5rem 0.7rem;
+    padding: 0.4rem !important;
+    line-height: 1rem;
+    float: right;
+    border-radius: 0.3rem;
+    font-weight: 500;
+    background-color: white !important;
 }
 
 #typora-sidebar .file-list-item.file-library-file-node {
@@ -1944,9 +1948,9 @@ body.html-for-mac
 .dropdown-menu > .active > a,
 .dropdown-menu > li > a:hover,
 .menu-style-btn.active,
-.auto-suggest-container li:hover,
 .context-menu.dropdown-menu > .active > a,
 .context-menu.dropdown-menu > li > a:hover,
+.auto-suggest-container li:hover,
 .auto-suggest-container li.active {
     color: var(--primary-color);
     background-color: var(--boxes);
@@ -2310,7 +2314,6 @@ html input[type="number"],
     height: 2.1rem !important;
     transition-duration: 0.2s;
     transition-property: border;
-    cursor: text;
 }
 
 select {
@@ -2318,7 +2321,8 @@ select {
 }
 
 input[type="text"],
-input[type="number"] {
+input[type="number"],
+#md-grid-height {
     cursor: text;
 }
 
@@ -2643,7 +2647,7 @@ textarea:focus {
     border: 1px solid transparent;
     color: white !important /*important required*/;
     box-shadow: rgba(116, 129, 141, 0.1) 2px 2px 6px,
-        rgba(26, 168, 139, 0.2) 0px 0px 10px;
+        rgba(56, 132, 255, 0.2) 0px 0px 10px;
 }
 
 #m-import-local:hover .preference-item-hint {
@@ -2661,7 +2665,7 @@ textarea:focus {
     max-width: none;
     padding: 1.5rem;
     background-color: var(--boxes);
-    border-radius: 0.5rem;
+    border-radius: 0rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 1.5rem;
@@ -2776,6 +2780,6 @@ kbd {
 </style><title>career</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><h3 id='han-jiung'><span>Han Jiung </span></h3><h5 id='--wooongdev'><span>- wooong.dev</span></h5><p>&nbsp;</p><h5 id='codestates-blockchain-202111--202204'><span>CodeStates BlockChain (2021.11 ~ 2022.04)</span></h5><hr /><p>&nbsp;</p><h3 id='목차'><span>목차</span></h3><p><a href='#education'><span>1. Education</span></a></p><p><a href='#training-course'><span>2. Training Course</span></a></p><p><a href='#awards'><span>3. Awards</span></a></p><p><a href='#certificate'><span>4.Certificate</span></a></p><p><a href='#project'><span>5. Project</span></a></p><p>&nbsp;</p><hr /><p>&nbsp;</p><h3 id='education'><span>Education</span></h3><p>&nbsp;</p><ul><li><p><span>Future education center CHUNG-ANG UNIVERSITY </span></p><ul><li><span>Computer Engineering BS (2019.02 ~ 2021.02)</span></li><li><span>Credit 4.36 / 4.5</span></li></ul><p>&nbsp;</p></li><li><p><span>K-Shield Jr. 6기</span></p><ul><li><span>보안사고분석대응 과정 (2021.03 ~ 2021. 06)</span></li></ul></li></ul><hr /><p>&nbsp;</p><h3 id='training-course'><span>Training Course</span></h3><p>&nbsp;</p><ul><li><p><span>National Information Society Agency(NIA), Data Creator Camp (2020.09.26)</span></p></li><li><p><span>AI Yangjae Hub, Embedded deep learning process using JETSON TX2 (2020.09.02 ~ 04)</span></p></li><li><p><span>Korea Computing Industry Association(K-CIA), Pytorch - Artificial Neural Network Deep Learning Model Development (2020.08.26 ~ 28)</span></p></li><li><p><span>National IT Promotion Agency(nipa), Utilize AI Technology (2020.07 ~ 08 )</span></p></li><li><p><span>Game User Protection Center(GUCC), Blockchain LV.99 (2020.01.17~23)</span></p><p>&nbsp;</p></li></ul><p>&nbsp;</p><hr /><p>&nbsp;</p><h3 id='awards'><span>Awards</span></h3><ul><li><p><span>Jeju MBC Marathon 20th Division 42.195km 1st place</span></p></li><li><p><span>Jeju TourismMarathon 20th Division 10km 3st place</span></p></li><li><p><span>Game User Protection Center, Blockchain Manrap Competition</span></p><ul><li><p><span>Second place. </span><a href='http://gamefocus.co.kr/detail.php?number=102179'><span>ref</span></a></p><p>&nbsp;</p></li></ul></li></ul><hr /><p>&nbsp;</p><h3 id='certificate'><span>Certificate</span></h3><p>&nbsp;</p><ul><li><p><span>KCCI LICENSE</span></p><ul><li><span>Computer User in the field of Spreadsheet &amp; Database Level - 1</span></li></ul></li><li><p><span>ICQA LICENSE</span></p><ul><li><span>Network Manager Level 2</span></li></ul></li></ul><p>&nbsp;</p><hr /><p>&nbsp;</p><h3 id='project'><span>Project</span></h3><p><span> </span></p><ol start='' ><li><p><span>Automatic Click</span></p><ul><li><a href='https://github.com/wooongdev/ToyProject'><span>sourceLink</span></a></li></ul></li></ol><blockquote><p><span>A project using the Python library that automatically finds and clicks the image</span></p></blockquote><p>&nbsp;</p><ol start='2' ><li><p><span>Platform ( 중단 )</span></p><ul><li><a href='http://wooong-dev.kro.kr' target='_blank' class='url'>http://wooong-dev.kro.kr</a></li></ul></li></ol><blockquote><p><span>A project that provides various functions and can be enjoyed (currently in production)</span></p></blockquote><p><span> </span></p><ol start='3' ><li><p><span>cls-Color-List-Show</span></p><ul><li><a href='https://github.com/wooongdev/cls-Color-List-Show'><span>sourceLink</span></a></li></ul></li></ol><blockquote><p><span>You can divide files and folders with the cls command.</span></p></blockquote><p>&nbsp;</p><ol start='4' ><li><p><span>Server-agent-system (GUI)</span></p><ul><li><a href='https://github.com/wooongdev/server-angent-system'><span>sourceLink</span></a></li></ul></li></ol><blockquote><p><span>Work created with a graphic interface related to malicious code</span></p></blockquote><p>&nbsp;</p><ol start='5' ><li><p><span>CoinPrice</span></p><ul><li><a href='https://github.com/wooongdev/server-angent-system'><span>sourceLink</span></a></li></ul></li></ol><blockquote><p><span>Reduce the inconvenience of having to check the coin price every time</span></p></blockquote><p>&nbsp;</p><ol start='6' ><li><p><span>DocuFree</span></p><ul><li><a href='https://github.com/rjursi/DocuFree'><span>sourceLink</span></a></li></ul></li></ol><blockquote><p><span>document malware detection</span></p></blockquote><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang=""><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 26.5px; left: 20px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">I am having fun with computer related work.</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 25px;"></div><div class="CodeMirror-gutters" style="display: none; height: 25px;"></div></div></div></pre><p>&nbsp;</p><p><a href='https://wooongdev.github.io/'><span>Home</span></a><span> 으로 돌아가는 링크 입니다.</span></p><p>&nbsp;</p></div></div>
+<div id='write'  class=''><h3 id='han-jiung'><span>Han Jiung </span></h3><h5 id='blog-wooongdev'><span>blog, wooong.dev</span></h5><p>&nbsp;</p><h5 id='codestates-blockchain-202111--202204'><span>CodeStates BlockChain (2021.11 ~ 2022.04)</span></h5><hr /><p>&nbsp;</p><h3 id='목차'><span>목차</span></h3><p><a href='#education'><span>1. Education</span></a></p><p><a href='#training-course'><span>2. Training Course</span></a></p><p><a href='#awards'><span>3. Awards</span></a></p><p><a href='#certificate'><span>4.Certificate</span></a></p><p><a href='#project'><span>5. Project</span></a></p><p>&nbsp;</p><hr /><p>&nbsp;</p><h3 id='education'><span>Education</span></h3><p>&nbsp;</p><ul><li><p><span>Future education center CHUNG-ANG UNIVERSITY </span></p><ul><li><span>Computer Engineering BS (2019.02 ~ 2021.02)</span></li><li><span>Credit 4.36 / 4.5</span></li></ul><p>&nbsp;</p></li><li><p><span>K-Shield Jr. 6기</span></p><ul><li><span>보안사고분석대응 과정 (2021.03 ~ 2021. 06)</span></li></ul><p>&nbsp;</p></li><li><p><span>codestates beb 02기</span></p><ul><li><span>블록체인 과정 (2021. 08 ~ 2022. 04)</span></li></ul></li></ul><hr /><p>&nbsp;</p><h3 id='training-course'><span>Training Course</span></h3><p>&nbsp;</p><ul><li><p><span>National Information Society Agency(NIA), Data Creator Camp (2020.09.26)</span></p></li><li><p><span>AI Yangjae Hub, Embedded deep learning process using JETSON TX2 (2020.09.02 ~ 04)</span></p></li><li><p><span>Korea Computing Industry Association(K-CIA), Pytorch - Artificial Neural Network Deep Learning Model Development (2020.08.26 ~ 28)</span></p></li><li><p><span>National IT Promotion Agency(nipa), Utilize AI Technology (2020.07 ~ 08 )</span></p></li><li><p><span>Game User Protection Center(GUCC), Blockchain LV.99 (2020.01.17~23)</span></p><p>&nbsp;</p></li></ul><p>&nbsp;</p><hr /><p>&nbsp;</p><h3 id='awards'><span>Awards</span></h3><ul><li><p><span>Jeju MBC Marathon 20th Division 42.195km 1st place</span></p></li><li><p><span>Jeju TourismMarathon 20th Division 10km 3st place</span></p></li><li><p><span>Game User Protection Center, Blockchain Manrap Competition</span></p><ul><li><p><span>Second place. </span><a href='http://gamefocus.co.kr/detail.php?number=102179'><span>ref</span></a></p><p>&nbsp;</p></li></ul></li></ul><hr /><p>&nbsp;</p><h3 id='certificate'><span>Certificate</span></h3><p>&nbsp;</p><ul><li><p><span>KCCI LICENSE</span></p><ul><li><span>Computer User in the field of Spreadsheet &amp; Database Level - 1</span></li></ul></li><li><p><span>ICQA LICENSE</span></p><ul><li><span>Network Manager Level 2</span></li></ul></li></ul><p>&nbsp;</p><hr /><p>&nbsp;</p><h3 id='project'><span>Project</span></h3><p><span> </span></p><ol start='' ><li><p><span>Automatic Click, CoinPrice</span></p><ul><li><a href='https://github.com/tetgo/ToyProject'><span>sourceLink</span></a></li></ul></li></ol><blockquote><p><span>A project using the Python library that automatically finds and clicks the image</span></p></blockquote><blockquote><p><span>Get price coin (medium)</span></p></blockquote><p>&nbsp;</p><p>&nbsp;</p><ol start='2' ><li><p><span>Platform ( 중단 )</span></p><ul><li><a href='http://wooong-dev.kro.kr' target='_blank' class='url'>http://wooong-dev.kro.kr</a></li></ul></li></ol><blockquote><p><span>A project that provides various functions and can be enjoyed (currently in production)</span></p></blockquote><p><span> </span></p><ol start='3' ><li><p><span>cls-Color-List-Show</span></p><ul><li><a href='https://github.com/tetgo/cls'><span>sourceLink</span></a></li></ul></li></ol><blockquote><p><span>You can divide files and folders with the cls command.</span></p></blockquote><p>&nbsp;</p><ol start='4' ><li><p><span>Server-agent-system (GUI)</span></p><ul><li><a href='https://github.com/tetgo/GUI'><span>sourceLink</span></a></li></ul></li></ol><blockquote><p><span>Work created with a graphic interface related to malicious code</span></p></blockquote><p>&nbsp;</p><ol start='5' ><li><p><span>CoinPrice</span></p><ul><li><a href='https://github.com/tetgo/wm'><span>sourceLink</span></a></li></ul></li></ol><blockquote><p><span>Reduce the inconvenience of having to check the coin price every time</span></p></blockquote><p>&nbsp;</p><ol start='6' ><li><p><span>DocuFree</span></p><ul><li><a href='https://github.com/rjursi/DocuFree'><span>sourceLink</span></a></li></ul></li></ol><blockquote><p><span>document malware detection</span></p></blockquote><p>&nbsp;</p><ol start='7' ><li><p><span>wm (wallet maker)</span></p><ul><li><a href='https://github.com/tetgo/wm'><span>sourceLink</span></a></li></ul></li></ol><blockquote><p><span>Command LIne Project, wallet maker with html , rest, just</span></p></blockquote><p>&nbsp;</p><p>&nbsp;</p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang=""><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 26.5px; left: 20px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">I am having fun with computer related work.</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 25px;"></div><div class="CodeMirror-gutters" style="display: none; height: 25px;"></div></div></div></pre><p>&nbsp;</p><p><a href='https://tetgo.github.io/'><span>Home</span></a><span> 으로 돌아가는 링크 입니다.</span></p><p>&nbsp;</p></div></div>
 </body>
 </html>
