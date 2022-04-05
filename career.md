@@ -173,15 +173,7 @@
 
   
 
-![Screen Shot 2022-04-05 at 3.35.46 PM](/Users/hanjiung/Desktop/Screen Shot 2022-04-05 at 3.35.46 PM.png)
-
-
-
-
-
-
-
-
+![blockchain_pirea](https://github.com/tetgo/tetgo.github.io/tree/master/static/assets/image_notebook.png)
 
 
 
