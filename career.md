@@ -137,11 +137,12 @@
 
 
 
-3. CoinPrice
+3. ToyProject
 
-- [sourceLink](https://github.com/tetgo/wm)
+- [sourceLink](https://github.com/tetgo/ToyProject)
 
-> Reduce the inconvenience of having to check the coin price every time
+> 1. clickgame, image detect
+> 2. Coin price view, macos header
 
 
 
@@ -171,7 +172,7 @@
 
 - [video player](https://drive.google.com/file/d/1-8TBhvpNMflwMd7jhKCoID51mSIfuWb9/view?usp=sharing)
 
-  
+- Image
 
 ![blockchain_pirea](./static/assets/image_notebook.png)
 
@@ -179,10 +180,22 @@
 
 
 
+***
 
+
+
+
+
+
+
+#### Why are tetgo a developer?
 
 ```
 I am having fun with computer related work.
+
+why? just fun
+
+It is not a light feeling. I am responsible for what I do.
 ```
 
 
