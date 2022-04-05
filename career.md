@@ -173,7 +173,9 @@
 
   
 
-![blockchain_pirea](https://github.com/tetgo/tetgo.github.io/tree/master/static/assets/image_notebook.png)
+![blockchain_pirea](https://github.com/tetgo/tetgo.github.io/blob/master/static/assets/image_notebook.png)
+
+
 
 
 
