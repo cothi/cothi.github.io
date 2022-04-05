@@ -102,6 +102,18 @@
 
 ***
 
+### blockChain node validator run
+
+- 2022.04.01 ~
+
+
+
+
+
+
+
+***
+
 
 
 ### Project
@@ -115,49 +127,61 @@
 
 >Get price coin (medium)
 
-
-
-
-
-2. Platform ( 중단 )
-   - http://wooong-dev.kro.kr
-
-> A project that provides various functions and can be enjoyed (currently in production)
-
  
 
-3. cls-Color-List-Show
-   - [sourceLink](https://github.com/tetgo/cls)
+2. cls-Color-List-Show
+
+- [sourceLink](https://github.com/tetgo/cls)
 
 > You can divide files and folders with the cls command.
 
 
 
-4. Server-agent-system (GUI)
-   - [sourceLink](https://github.com/tetgo/GUI)
+3. CoinPrice
 
-> Work created with a graphic interface related to malicious code
-
-
-
-5. CoinPrice
-   - [sourceLink](https://github.com/tetgo/wm)
+- [sourceLink](https://github.com/tetgo/wm)
 
 > Reduce the inconvenience of having to check the coin price every time
 
 
 
-6. DocuFree
-   - [sourceLink](https://github.com/rjursi/DocuFree)
+4. DocuFree
+
+- [sourceLink](https://github.com/rjursi/DocuFree)
+- [GUI](https://github.com/tetgo/GUI)
 
 > document malware detection
+>
+> Work created with a graphic interface related to malicious code
 
 
 
-7. wm (wallet maker)
-   - [sourceLink](https://github.com/tetgo/wm)
+5. wm (wallet maker)
+
+- [sourceLink](https://github.com/tetgo/wm)
+- [introduce](https://wooong.dev/38)
 
 > Command LIne Project, wallet maker with html , rest, just
+
+
+
+6. Blockchain (pixel Korea - pirea)
+
+- [sourceLink](https://github.com/codestates/BEB_02_pirea)
+
+- [video player](https://drive.google.com/file/d/1-8TBhvpNMflwMd7jhKCoID51mSIfuWb9/view?usp=sharing)
+
+  
+
+![Screen Shot 2022-04-05 at 3.35.46 PM](/Users/hanjiung/Desktop/Screen Shot 2022-04-05 at 3.35.46 PM.png)
+
+
+
+
+
+
+
+
 
 
 
