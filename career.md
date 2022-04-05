@@ -120,16 +120,7 @@
 
  
 
-1. Automatic Click, CoinPrice
-   - [sourceLink](https://github.com/tetgo/ToyProject)
-
->  A project using the Python library that automatically finds and clicks the image
-
->Get price coin (medium)
-
- 
-
-2. cls-Color-List-Show
+1. cls-Color-List-Show
 
 - [sourceLink](https://github.com/tetgo/cls)
 
@@ -137,7 +128,7 @@
 
 
 
-3. ToyProject
+2. ToyProject
 
 - [sourceLink](https://github.com/tetgo/ToyProject)
 
@@ -146,7 +137,7 @@
 
 
 
-4. DocuFree
+3. DocuFree
 
 - [sourceLink](https://github.com/rjursi/DocuFree)
 - [GUI](https://github.com/tetgo/GUI)
@@ -157,7 +148,7 @@
 
 
 
-5. wm (wallet maker)
+4. wm (wallet maker)
 
 - [sourceLink](https://github.com/tetgo/wm)
 - [introduce](https://wooong.dev/38)
@@ -166,7 +157,7 @@
 
 
 
-6. Blockchain (pixel Korea - pirea)
+5. Blockchain (pixel Korea - pirea)
 
 - [sourceLink](https://github.com/codestates/BEB_02_pirea)
 
@@ -175,12 +166,6 @@
 - Image
 
 ![blockchain_pirea](./static/assets/image_notebook.png)
-
-
-
-
-
-***
 
 
 
