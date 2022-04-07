@@ -32,7 +32,9 @@ It is not a light feeling. I am responsible for what I do.
 
 [4.Certificate](# Certificate )
 
-[5. Project](# Project)
+[5. Team Project](# Team Project)
+
+[6. Personal Project](# Team Project)
 
 [6. Freelancer](# Freelancer)
 
@@ -59,14 +61,16 @@ It is not a light feeling. I am responsible for what I do.
     >  Ref, http://kshieldjr.org/tlnt_mu01_002.do
   
   - 수료
-
-
+  
+  
 
 - codestates beb 02기
 
   - blockchain couse (2021. 08 ~ 2022. 04)
 
     > Ref, https://codestates.com/course/blockchain?gclid=CjwKCAjw9LSSBhBsEiwAKtf0n4D5ZYWt762pafhjdZbMOucAs1GQJT4JE6gag0lfMIrOZkrDLjpyuBoCiIMQAvD_BwE
+
+
 
 
 ***
@@ -129,83 +133,25 @@ It is not a light feeling. I am responsible for what I do.
 
 
 
-### Project
+### Team project
 
  
 
-1. cls-Color-List-Show
+#### 1.  pirea (pixel Korea) 
 
-   - main thing of project
+- main thing of project
 
-     ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
+  ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white)![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
 
-   - [source link](https://github.com/tetgo/cls)
+- IDE
 
+  ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) 
 
-> You can divide files and folders with the cls command.
+- [source link](https://github.com/codestates/BEB_02_pirea)
 
+- [video player](https://drive.google.com/file/d/1-8TBhvpNMflwMd7jhKCoID51mSIfuWb9/view?usp=sharing)
 
-
-2. ToyProject
-
-   - My main language of this project
-
-     ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
-   - [source link](https://github.com/tetgo/ToyProject)
-
-
-> 1. clickgame, image detect
-> 2. Coin price view, macos header
-
-
-
-3. DocuFree
-
-   - main thing of project
-
-     ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
-
-   - [source link](https://github.com/rjursi/DocuFree)
-
-   - [GUI](https://github.com/tetgo/GUI)
-
-
-> document malware detection
->
-> Work created with a graphic interface related to malicious code
-
-
-
-4. wm (wallet maker)
-
-   - main thing of project
-
-     ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
-
-   - [source link](https://github.com/tetgo/wm)
-
-   - [introduce](https://wooong.dev/38)
-
-
-> Command lIne project, wallet maker with html , rest, just
-
-
-
-5. Blockchain (pixel Korea - pirea)
-
-   - main thing of project
-
-     ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white)![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
-
-   - [source link](https://github.com/codestates/BEB_02_pirea)
-
-
-   - [video player](https://drive.google.com/file/d/1-8TBhvpNMflwMd7jhKCoID51mSIfuWb9/view?usp=sharing)
-
-
-   - Image
-
+- Image
 
 ![blockchain_pirea](./static/assets/image_notebook.png)
 
@@ -213,27 +159,122 @@ It is not a light feeling. I am responsible for what I do.
 
 
 
-6. Calculate (CECOM-CAU)
+#### 2. Calculate (CECOM-CAU)
 
-   - main thing of project
+- main thing of project
 
-     ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) 
+  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) 
 
-   - [source link](https://github.com/CECOM-CAU/CECOME_CALCULATE.git)
+- IDE
+
+  ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white) ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white) 
+
+- [source link](https://github.com/CECOM-CAU/CECOME_CALCULATE.git)
 
 > Calculator over 2.1 billion
 
 
 
-7. Via Lactea
+#### 3. Via Lactea (team, Ojak)
 
-   -  main thing of this project
+-  main thing of this project
 
-     ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) 
+  ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)  
 
-   - [source link](https://github.com/toto1444/Project-Via-Lactea)
+- IDE
+
+  ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) 
+
+- [source link](https://github.com/toto1444/Project-Via-Lactea)
 
 > Project Via Lactea is the pletform that connects devloper and tester
+
+
+
+#### 4. DocuFree
+
+- main thing of project
+
+  ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+
+- IDE
+
+  ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) 
+
+- [source link](https://github.com/rjursi/DocuFree)
+
+- [GUI](https://github.com/tetgo/GUI)
+
+> document malware detection
+>
+> Work created with a graphic interface related to malicious code
+
+
+
+
+
+***
+
+
+
+
+
+### Personal project
+
+
+
+#### 1. cls-Color-List-Show
+
+- main thing of project
+
+  ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) 
+
+- IDE
+
+  ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) 
+
+- [source link](https://github.com/tetgo/cls)
+
+> You can divide files and folders with the cls command.
+
+
+
+#### 2. ToyProject
+
+- My main language of this project
+
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+- IDE
+
+  ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) 
+
+- [source link](https://github.com/tetgo/ToyProject)
+
+> 1. clickgame, image detect
+> 2. Coin price view, macos header
+
+
+
+
+
+#### 3. wm (wallet maker)
+
+- main thing of project
+
+  ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+
+- IDE
+
+  ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) 
+
+- [source link](https://github.com/tetgo/wm)
+
+- [introduce](https://wooong.dev/38)
+
+> Command lIne project, wallet maker with html , rest, just
+
+
 
 
 
@@ -245,11 +286,17 @@ It is not a light feeling. I am responsible for what I do.
 
 - main thing of project
 
-  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) 
+  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+
+- IDE 
+
+  ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) 
 
 - totla 3건 ~
 
   > [ref](https://soomgo.com/profile/users/5006849?from=my_info_preview), I wrote a program that makes work on a computer very simple
+
+
 
 
 
