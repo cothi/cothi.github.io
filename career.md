@@ -54,7 +54,7 @@ It is not a light feeling. I am responsible for what I do.
   
   
 - K-Shield Jr. 6기
-  - 보안사고분석대응 과정 (2021.03 ~ 2021. 06)
+  - computer emergency response team course (2021.03 ~ 2021. 06)
   
     >  Ref, http://kshieldjr.org/tlnt_mu01_002.do
   
@@ -64,7 +64,7 @@ It is not a light feeling. I am responsible for what I do.
 
 - codestates beb 02기
 
-  - 블록체인 과정 (2021. 08 ~ 2022. 04)
+  - blockchain couse (2021. 08 ~ 2022. 04)
 
     > Ref, https://codestates.com/course/blockchain?gclid=CjwKCAjw9LSSBhBsEiwAKtf0n4D5ZYWt762pafhjdZbMOucAs1GQJT4JE6gag0lfMIrOZkrDLjpyuBoCiIMQAvD_BwE
 
@@ -122,16 +122,6 @@ It is not a light feeling. I am responsible for what I do.
   - ICQA LICENSE (Network Manager Level 2)
   - KDFS LICENSE (digital forensic Level 2, just written test )
   - HRDK LICENSE (Engineer Information Processing, just written test)
-
-
-
-***
-
-
-
-### blockChain node validator run
-
-- 2022.04.01 ~
 
 
 
@@ -247,7 +237,19 @@ It is not a light feeling. I am responsible for what I do.
 
   - 3 건 (python, google apps script)
 
-  > ([ref](https://soomgo.com/profile/users/5006849?from=my_info_preview)), I wrote a program that makes work on a computer very simple
+  > [ref](https://soomgo.com/profile/users/5006849?from=my_info_preview), I wrote a program that makes work on a computer very simple
+
+
+
+
+
+***
+
+
+
+### blockChain node validator run
+
+- 2022.04.01 ~
 
 
 
