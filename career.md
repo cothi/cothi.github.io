@@ -49,6 +49,7 @@ It is not a light feeling. I am responsible for what I do.
 -  Future education center CHUNG-ANG UNIVERSITY 
   - Computer Engineering BS (2019.02 ~ 2021.02)
   - Credit 4.36 / 4.5
+  - 졸업
   
   
   
@@ -57,12 +58,14 @@ It is not a light feeling. I am responsible for what I do.
   
     >  Ref, http://kshieldjr.org/tlnt_mu01_002.do
   
-  
-  
+  - 수료
+
+
+
 - codestates beb 02기
-  
+
   - 블록체인 과정 (2021. 08 ~ 2022. 04)
-  
+
     > Ref, https://codestates.com/course/blockchain?gclid=CjwKCAjw9LSSBhBsEiwAKtf0n4D5ZYWt762pafhjdZbMOucAs1GQJT4JE6gag0lfMIrOZkrDLjpyuBoCiIMQAvD_BwE
 
 
@@ -212,11 +215,13 @@ It is not a light feeling. I am responsible for what I do.
 
 ### Freelancer 
 
+
+
 - 2021.06 ~
 
-  - 5 건 (python, google apps script)
+  - 3 건 (python, google apps script)
 
-  > ref, I wrote a program that makes work on a computer very simple
+  > ([ref](https://soomgo.com/profile/users/5006849?from=my_info_preview)), I wrote a program that makes work on a computer very simple
 
 
 
