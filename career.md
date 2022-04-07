@@ -75,8 +75,6 @@ It is not a light feeling. I am responsible for what I do.
 
 ### Training Course
 
-
-
 - National Information Society Agency(NIA), Data Creator Camp (2020.09.26)
 
 - AI Yangjae Hub, Embedded deep learning process using JETSON TX2 (2020.09.02 ~ 04)
@@ -87,7 +85,6 @@ It is not a light feeling. I am responsible for what I do.
 
 - Game User Protection Center(GUCC), Blockchain LV.99 (2020.01.17~23)
 
-  
 
 
 
@@ -147,7 +144,12 @@ It is not a light feeling. I am responsible for what I do.
  
 
 1. cls-Color-List-Show
-   - [sourceLink](https://github.com/tetgo/cls)
+
+   - My main language of project
+
+     ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) 
+
+   - [source link](https://github.com/tetgo/cls)
 
 
 > You can divide files and folders with the cls command.
@@ -155,7 +157,12 @@ It is not a light feeling. I am responsible for what I do.
 
 
 2. ToyProject
-   - [sourceLink](https://github.com/tetgo/ToyProject)
+
+   - My main language of this project
+
+     ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+   - [source link](https://github.com/tetgo/ToyProject)
 
 
 > 1. clickgame, image detect
@@ -165,7 +172,11 @@ It is not a light feeling. I am responsible for what I do.
 
 3. DocuFree
 
-   - [sourceLink](https://github.com/rjursi/DocuFree)
+   - My main language of this project
+
+     ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+   - [source link](https://github.com/rjursi/DocuFree)
 
    - [GUI](https://github.com/tetgo/GUI)
 
@@ -178,7 +189,11 @@ It is not a light feeling. I am responsible for what I do.
 
 4. wm (wallet maker)
 
-   - [sourceLink](https://github.com/tetgo/wm)
+   - My main language of this project
+
+     ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
+   - [source link](https://github.com/tetgo/wm)
 
    - [introduce](https://wooong.dev/38)
 
@@ -189,7 +204,11 @@ It is not a light feeling. I am responsible for what I do.
 
 5. Blockchain (pixel Korea - pirea)
 
-   - [sourceLink](https://github.com/codestates/BEB_02_pirea)
+   - my main languge of this project
+
+     ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white)![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+
+   - [source link](https://github.com/codestates/BEB_02_pirea)
 
 
    - [video player](https://drive.google.com/file/d/1-8TBhvpNMflwMd7jhKCoID51mSIfuWb9/view?usp=sharing)
@@ -203,7 +222,12 @@ It is not a light feeling. I am responsible for what I do.
 
 
 6. Calculate (CECOM-CAU)
-   - https://github.com/CECOM-CAU/CECOME_CALCULATE.git
+
+   - My main language of this project
+
+     ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) 
+
+   - [source link](https://github.com/CECOM-CAU/CECOME_CALCULATE.git)
 
 > Calculator over 2.1 billion
 
@@ -215,7 +239,9 @@ It is not a light feeling. I am responsible for what I do.
 
 ### Freelancer 
 
+- My main language of main language
 
+  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 - 2021.06 ~
 
@@ -232,8 +258,6 @@ It is not a light feeling. I am responsible for what I do.
 #### contact
 
 jiungdev@gmail.com
-
-
 
 
 
