@@ -231,7 +231,7 @@ It is not a light feeling. I am responsible for what I do.
 
    - My main language of this project
 
-     ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) 
+     ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) 
 
    - [source link](https://github.com/toto1444/Project-Via-Lactea)
 
