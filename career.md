@@ -209,6 +209,8 @@ It is not a light feeling. I am responsible for what I do.
 
 ![blockchain_pirea](./static/assets/image_notebook.png)
 
+> ***Pirea(Pixel Korea) project*** allows you to own the land you want on a map made of pixels.
+
 
 
 6. Calculate (CECOM-CAU)
@@ -220,6 +222,20 @@ It is not a light feeling. I am responsible for what I do.
    - [source link](https://github.com/CECOM-CAU/CECOME_CALCULATE.git)
 
 > Calculator over 2.1 billion
+
+
+
+7. Via Lactea
+
+   
+
+   - My main language of this project
+
+     ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) 
+
+   - [source link](https://github.com/toto1444/Project-Via-Lactea)
+
+> Project Via Lactea is the pletform that connects devloper and tester
 
 
 
