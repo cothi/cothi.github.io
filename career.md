@@ -48,23 +48,20 @@ It is not a light feeling. I am responsible for what I do.
 
 
 
--  Future education center CHUNG-ANG UNIVERSITY 
+-  Future education center CHUNG-ANG UNIVERSITY - Graduate
   - Computer Engineering BS (2019.02 ~ 2021.02)
   - Credit 4.36 / 4.5
-  - 졸업
   
   
   
-- K-Shield Jr. 6기
+- K-Shield Jr. 6기 - Completion
   - computer emergency response team course (2021.03 ~ 2021. 06)
   
     >  Ref, http://kshieldjr.org/tlnt_mu01_002.do
   
-  - 수료
-  
   
 
-- codestates beb 02기
+- codestates beb 02기 - Completion
 
   - blockchain couse (2021. 08 ~ 2022. 04)
 
@@ -134,8 +131,6 @@ It is not a light feeling. I am responsible for what I do.
 
 
 ### Team project
-
- 
 
 #### 1.  pirea (pixel Korea) 
 
@@ -220,8 +215,6 @@ It is not a light feeling. I am responsible for what I do.
 
 
 ### Personal project
-
-
 
 #### 1. cls-Color-List-Show
 
