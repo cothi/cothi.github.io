@@ -36,7 +36,7 @@ It is not a light feeling. I am responsible for what I do.
 
 [6. Personal Project](# Team Project)
 
-[6. Freelancer](# Freelancer)
+[7. Freelancer](# Freelancer)
 
 
 
@@ -295,13 +295,9 @@ It is not a light feeling. I am responsible for what I do.
 
 ***
 
-
-
 ### blockChain node validator run
 
 - 2022.04.01 ~
-
-
 
 ***
 
@@ -314,4 +310,3 @@ jiungdev@gmail.com
 
 
 [Home](https://tetgo.github.io/) 으로 돌아가는 링크 입니다.
-
