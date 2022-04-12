@@ -14,7 +14,7 @@ why? just fun
 It is not a light feeling. I am responsible for what I do.
 ```
 
-##### 
+
 
 ***
 
@@ -101,7 +101,7 @@ It is not a light feeling. I am responsible for what I do.
 
 - red cross blood donation, (silver, gold)
 
-- Game User Protection Center, Blockchain Manrap Competition
+- Game User Protection Center, Blockchain Manrap Competition 2st place
   >  ref
   >
   > 1. https://www.mk.co.kr/news/it/view/2020/02/142651/
@@ -156,6 +156,10 @@ It is not a light feeling. I am responsible for what I do.
 
 #### 2. Calculate (CECOM-CAU)
 
+- Subject
+
+  ` Calculator over 2.1 billion` 
+
 - main thing of project
 
   ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) 
@@ -165,8 +169,6 @@ It is not a light feeling. I am responsible for what I do.
   ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white) ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white) 
 
 - [source link](https://github.com/CECOM-CAU/CECOME_CALCULATE.git)
-
-> Calculator over 2.1 billion
 
 
 
@@ -275,7 +277,7 @@ It is not a light feeling. I am responsible for what I do.
 
 
 
-### Freelancer (2021.06 ~ )
+### Freelancer (2021.06 ~ )	
 
 - main thing of project
 
@@ -285,9 +287,9 @@ It is not a light feeling. I am responsible for what I do.
 
   ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) 
 
-- totla 3건 ~
+- totla 4건 ~
 
-  > [ref](https://soomgo.com/profile/users/5006849?from=my_info_preview), I wrote a program that makes work on a computer very simple
+> [ref](https://soomgo.com/profile/users/5006849?from=my_info_preview), I wrote a program that makes work on a computer very simple
 
 
 
