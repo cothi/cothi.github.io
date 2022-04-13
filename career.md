@@ -74,6 +74,10 @@ It is not a light feeling. I am responsible for what I do.
 
 
 
+***
+
+
+
 ### Training Course
 
 - National Information Society Agency(NIA), Data Creator Camp (2020.09.26)
@@ -132,79 +136,16 @@ It is not a light feeling. I am responsible for what I do.
 
 ### Team project
 
-#### 1.  pirea (pixel Korea) 
-
-- main thing of project
-
-  ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white)![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
-
-- IDE
-
-  ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) 
-
-- [source link](https://github.com/codestates/BEB_02_pirea)
-
-- [video player](https://drive.google.com/file/d/1-8TBhvpNMflwMd7jhKCoID51mSIfuWb9/view?usp=sharing)
-
-- Image
-
-![blockchain_pirea](./static/assets/image_notebook.png)
-
-> ***Pirea(Pixel Korea) project*** allows you to own the land you want on a map made of pixels.
 
 
-
-#### 2. Calculate (CECOM-CAU)
-
-- Subject
-
-  ` Calculator over 2.1 billion` 
-
-- main thing of project
-
-  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) 
-
-- IDE
-
-  ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white) ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white) 
-
-- [source link](https://github.com/CECOM-CAU/CECOME_CALCULATE.git)
+|                             | subject                                                      | my main language of project                                  | use ide                                                      | source link                                                  | Introduce                                                    |
+| --------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **pirea (pixel Korea)**     | ***Pirea(Pixel Korea) project*** allows you to own the land you want on a map made of pixels. | ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)    ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/codestates/BEB_02_pirea)    | [video player](https://drive.google.com/file/d/1-8TBhvpNMflwMd7jhKCoID51mSIfuWb9/view?usp=sharing) |
+| **Calculate (CECOM-CAU)**   | Calculator over 2.1 billion                                  | ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) | ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white) | [source link](https://github.com/CECOM-CAU/CECOME_CALCULATE.git) |                                                              |
+| **Via Lactea (team, Ojak)** | Project Via Lactea is the pletform that connects devloper and tester | ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/toto1444/Project-Via-Lactea) |                                                              |
+| **DocuFree (kshield jr)**   | document malware detection,  Work created with a graphic interface related to malicious code | ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white)   ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/toto1444/Project-Via-Lactea) ,   [GUI](https://github.com/tetgo/GUI) |                                                              |
 
 
-
-#### 3. Via Lactea (team, Ojak)
-
--  main thing of this project
-
-  ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)  
-
-- IDE
-
-  ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) 
-
-- [source link](https://github.com/toto1444/Project-Via-Lactea)
-
-> Project Via Lactea is the pletform that connects devloper and tester
-
-
-
-#### 4. DocuFree
-
-- main thing of project
-
-  ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
-
-- IDE
-
-  ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) 
-
-- [source link](https://github.com/rjursi/DocuFree)
-
-- [GUI](https://github.com/tetgo/GUI)
-
-> document malware detection
->
-> Work created with a graphic interface related to malicious code
 
 
 
@@ -218,62 +159,22 @@ It is not a light feeling. I am responsible for what I do.
 
 ### Personal project
 
-#### 1. cls-Color-List-Show
-
-- main thing of project
-
-  ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) 
-
-- IDE
-
-  ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) 
-
-- [source link](https://github.com/tetgo/cls)
-
-> You can divide files and folders with the cls command.
 
 
-
-#### 2. ToyProject
-
-- My main language of this project
-
-  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
-- IDE
-
-  ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) 
-
-- [source link](https://github.com/tetgo/ToyProject)
-
-> 1. clickgame, image detect
-> 2. Coin price view, macos header
-
-
-
-
-
-#### 3. wm (wallet maker)
-
-- main thing of project
-
-  ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
-
-- IDE
-
-  ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) 
-
-- [source link](https://github.com/tetgo/wm)
-
-- [introduce](https://wooong.dev/38)
-
-> Command lIne project, wallet maker with html , rest, just
+|                      | subject                                                 | my main language of project                                  | use ide                                                      | source link                                        | Introduce                          |
+| -------------------- | :------------------------------------------------------ | :----------------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------- | ---------------------------------- |
+| **cls**              | You can divide files and folders with the cls command.  | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/cls)        |                                    |
+| **wm(wallet maker)** | Command lIne project, wallet maker with html , rest     | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/wm)         |                                    |
+| **ToyProject**       | clickgame, image detect,  Coin price view, macos header | ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/ToyProject) | [introduce](https://wooong.dev/38) |
+|                      |                                                         |                                                              |                                                              |                                                    |                                    |
 
 
 
 
 
 ***
+
+
 
 
 
@@ -297,9 +198,13 @@ It is not a light feeling. I am responsible for what I do.
 
 ***
 
+
+
 ### blockChain node validator run
 
 - 2022.04.01 ~
+
+
 
 ***
 
