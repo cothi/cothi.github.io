@@ -151,6 +151,8 @@ It is not a light feeling. I am responsible for what I do.
 
 
 
+
+
 ***
 
 
@@ -166,7 +168,7 @@ It is not a light feeling. I am responsible for what I do.
 | **cls**              | You can divide files and folders with the cls command.  | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/cls)        |                                    |
 | **wm(wallet maker)** | Command lIne project, wallet maker with html , rest     | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/wm)         |                                    |
 | **ToyProject**       | clickgame, image detect,  Coin price view, macos header | ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/ToyProject) | [introduce](https://wooong.dev/38) |
-|                      |                                                         |                                                              |                                                              |                                                    |                                    |
+| pow of blockchain    | pow lecture of nomad coder                              | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/powtest)    |                                    |
 
 
 
