@@ -74,10 +74,6 @@ It is not a light feeling. I am responsible for what I do.
 
 
 
-***
-
-
-
 ### Training Course
 
 - National Information Society Agency(NIA), Data Creator Camp (2020.09.26)
