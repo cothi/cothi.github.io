@@ -1,18 +1,6 @@
 ### Han Jiung (tetgo)
 
-##### now, CodeStates BlockChain (2021.11 ~ 2022.04)
-
-
-
-#### Why are tetgo a developer?
-
-```
-I am having fun with computer related work.
-
-why? just fun
-
-It is not a light feeling. I am responsible for what I do.
-```
+now, self maintenance (2022.04 ~)
 
 
 
@@ -159,12 +147,12 @@ It is not a light feeling. I am responsible for what I do.
 
 
 
-|                      | subject                                                 | my main language of project                                  | use ide                                                      | source link                                        | Introduce                          |
-| -------------------- | :------------------------------------------------------ | :----------------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------- | ---------------------------------- |
-| **cls**              | You can divide files and folders with the cls command.  | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/cls)        |                                    |
-| **wm(wallet maker)** | Command lIne project, wallet maker with html , rest     | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/wm)         |                                    |
-| **ToyProject**       | clickgame, image detect,  Coin price view, macos header | ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/ToyProject) | [introduce](https://wooong.dev/38) |
-| pow of blockchain    | pow lecture of nomad coder                              | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/powtest)    |                                    |
+|                       | subject                                                 | my main language of project                                  | use ide                                                      | source link                                        | Introduce                          |
+| --------------------- | :------------------------------------------------------ | :----------------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------- | ---------------------------------- |
+| **cls**               | You can divide files and folders with the cls command.  | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/cls)        |                                    |
+| **wm(wallet maker)**  | Command lIne project, wallet maker with html , rest     | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/wm)         |                                    |
+| **ToyProject**        | clickgame, image detect,  Coin price view, macos header | ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/ToyProject) | [introduce](https://wooong.dev/38) |
+| **pow of blockchain** | pow lecture of nomad coder                              | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/powtest)    |                                    |
 
 
 
@@ -176,7 +164,7 @@ It is not a light feeling. I am responsible for what I do.
 
 
 
-### Freelancer (2021.06 ~ )	
+### Freelancer 
 
 - main thing of project
 
@@ -186,25 +174,43 @@ It is not a light feeling. I am responsible for what I do.
 
   ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) 
 
-- totla 4건 ~
+- Total (2021.06 ~ )
 
-> [ref](https://soomgo.com/profile/users/5006849?from=my_info_preview), I wrote a program that makes work on a computer very simple
+   [ref](https://soomgo.com/profile/users/5006849?from=my_info_preview) - 4 cases
+
+- blockChain node validator run
+
+  2022.04.01 ~
+
+> i hope that what i do helps the world, and it is even better if it follows monetization.
 
 
-
-
-
-***
-
-
-
-### blockChain node validator run
-
-- 2022.04.01 ~
 
 
 
 ***
+
+
+
+#### Why are tetgo a developer?
+
+```reStructuredText
+I am having fun with computer related work.
+
+why? just fun
+
+It is not a light feeling. I am responsible for what I do.
+```
+
+
+
+
+
+
+
+---
+
+
 
 
 
