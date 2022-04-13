@@ -101,7 +101,7 @@ It is not a light feeling. I am responsible for what I do.
 
 - red cross blood donation, (silver, gold)
 
-- Game User Protection Center, Blockchain Manrap Competition 2st place
+- Blockchain hackathon competition 2st place, Game User Protection Center
   >  ref
   >
   > 1. https://www.mk.co.kr/news/it/view/2020/02/142651/
