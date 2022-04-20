@@ -106,7 +106,8 @@ now, self maintenance (2022.04 ~)
 - Document	
   - Microsoft Office Specialist 2007 Master
   - KCCI LICENSE (Computer User in the field of Spreadsheet & Database Level - 1)
-
+  - GTQ(Graphic Technology Qualification)  Level - 2
+  
 - job performance
   - ICQA LICENSE (Network Manager Level 2)
   - KDFS LICENSE (digital forensic Level 2, just written test )
