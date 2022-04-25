@@ -34,8 +34,6 @@ now, self maintenance (2022.04 ~)
 
 ### Education
 
-
-
 -  Future education center CHUNG-ANG UNIVERSITY - Graduate
   - Computer Engineering BS (2019.02 ~ 2021.02)
   - Credit 4.36 / 4.5
@@ -121,14 +119,12 @@ now, self maintenance (2022.04 ~)
 
 ### Team project
 
-
-
-|                             | subject                                                      | my main language of project                                  | use ide                                                      | source link                                                  | Introduce                                                    |
-| --------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **pirea (pixel Korea)**     | ***Pirea(Pixel Korea) project*** allows you to own the land you want on a map made of pixels. | ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)    ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/codestates/BEB_02_pirea)    | [video player](https://drive.google.com/file/d/1-8TBhvpNMflwMd7jhKCoID51mSIfuWb9/view?usp=sharing) |
-| **Calculate (CECOM-CAU)**   | Calculator over 2.1 billion                                  | ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) | ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white) | [source link](https://github.com/CECOM-CAU/CECOME_CALCULATE.git) |                                                              |
-| **Via Lactea (team, Ojak)** | Project Via Lactea is the pletform that connects devloper and tester | ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/toto1444/Project-Via-Lactea) |                                                              |
-| **DocuFree (kshield jr)**   | document malware detection,  Work created with a graphic interface related to malicious code | ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white)   ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/toto1444/Project-Via-Lactea) ,   [GUI](https://github.com/tetgo/GUI) |                                                              |
+|                             | subject                                                      | my main language of project                                  |      | source link                                                  | Introduce                                                    |
+| --------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **pirea (pixel Korea)**     | ***Pirea(Pixel Korea) project*** allows you to own the land you want on a map made of pixels. | ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)    ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) |      | [source link](https://github.com/codestates/BEB_02_pirea)    | [video player](https://drive.google.com/file/d/1-8TBhvpNMflwMd7jhKCoID51mSIfuWb9/view?usp=sharing) |
+| **Calculate (CECOM-CAU)**   | Calculator over 2.1 billion                                  | ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) |      | [source link](https://github.com/CECOM-CAU/CECOME_CALCULATE.git) |                                                              |
+| **Via Lactea (team, Ojak)** | Project Via Lactea is the pletform that connects devloper and tester | ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) |      | [source link](https://github.com/toto1444/Project-Via-Lactea) |                                                              |
+| **DocuFree (kshield jr)**   | document malware detection,  Work created with a graphic interface related to malicious code | ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white)   ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |      | [source link](https://github.com/toto1444/Project-Via-Lactea) ,   [GUI](https://github.com/tetgo/GUI) |                                                              |
 
 
 
@@ -146,14 +142,12 @@ now, self maintenance (2022.04 ~)
 
 ### Personal project
 
-
-
-|                       | subject                                                 | my main language of project                                  | use ide                                                      | source link                                        | Introduce                          |
-| --------------------- | :------------------------------------------------------ | :----------------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------- | ---------------------------------- |
-| **cls**               | You can divide files and folders with the cls command.  | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/cls)        |                                    |
-| **wm(wallet maker)**  | Command lIne project, wallet maker with html , rest     | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/wm)         |                                    |
-| **ToyProject**        | clickgame, image detect,  Coin price view, macos header | ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/ToyProject) | [introduce](https://wooong.dev/38) |
-| **pow of blockchain** | pow lecture of nomad coder                              | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) | ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white) | [source link](https://github.com/tetgo/powtest)    |                                    |
+|                       | subject                                                 | my main language of project                                  |      | source link                                        | Introduce                          |
+| --------------------- | :------------------------------------------------------ | :----------------------------------------------------------- | ---- | -------------------------------------------------- | ---------------------------------- |
+| **cls**               | You can divide files and folders with the cls command.  | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) |      | [source link](https://github.com/tetgo/cls)        |                                    |
+| **wm(wallet maker)**  | Command lIne project, wallet maker with html , rest     | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) |      | [source link](https://github.com/tetgo/wm)         |                                    |
+| **ToyProject**        | clickgame, image detect,  Coin price view, macos header | ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) |      | [source link](https://github.com/tetgo/ToyProject) | [introduce](https://wooong.dev/38) |
+| **pow of blockchain** | pow lecture of nomad coder                              | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) |      | [source link](https://github.com/tetgo/powtest)    |                                    |
 
 
 
@@ -179,11 +173,11 @@ now, self maintenance (2022.04 ~)
 
    [ref](https://soomgo.com/profile/users/5006849?from=my_info_preview) - 4 cases
 
-- blockChain node validator run
+- blockchain validator 
 
-  2022.04.01 ~
+  2022.01 ~
 
-> i hope that what i do helps the world, and it is even better if it follows monetization.
+> hope that what i do helps the world, and it is even better if it follows monetization.
 
 
 
