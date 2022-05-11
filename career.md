@@ -1,4 +1,4 @@
-### Han Jiung (tetgo)
+### Han Jiung - cothi
 
 now, self maintenance (2022.04 ~)
 
@@ -56,7 +56,11 @@ now, self maintenance (2022.04 ~)
 
 
 
+
+
 ***
+
+
 
 
 
@@ -71,6 +75,8 @@ now, self maintenance (2022.04 ~)
 - National IT Promotion Agency(nipa), Utilize AI Technology (2020.07 ~ 08 )
 
 - Game User Protection Center(GUCC), Blockchain LV.99 (2020.01.17~23)
+
+
 
 
 
@@ -93,7 +99,8 @@ now, self maintenance (2022.04 ~)
   > 1. https://www.mk.co.kr/news/it/view/2020/02/142651/
   > 2. http://gamefocus.co.kr/detail.php?number=102149
   
-  
+
+
 
 ***
 
@@ -117,9 +124,17 @@ now, self maintenance (2022.04 ~)
 
 
 
+## Project 
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=cothi&theme=vue) 
+
+
+
+
+
 ### Team project
 
-|                             | subject                                                      | my main language of project                                  |      | source link                                                  | Introduce                                                    |
+|                             | subject                                                      | my main language of this project                             |      | source link                                                  | Introduce                                                    |
 | --------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **pirea (pixel Korea)**     | ***Pirea(Pixel Korea) project*** allows you to own the land you want on a map made of pixels. | ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)    ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) |      | [source link](https://github.com/codestates/BEB_02_pirea)    | [video player](https://drive.google.com/file/d/1-8TBhvpNMflwMd7jhKCoID51mSIfuWb9/view?usp=sharing) |
 | **Calculate (CECOM-CAU)**   | Calculator over 2.1 billion                                  | ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) |      | [source link](https://github.com/CECOM-CAU/CECOME_CALCULATE.git) |                                                              |
@@ -130,26 +145,20 @@ now, self maintenance (2022.04 ~)
 
 
 
-
-
-
-
 ***
 
 
 
+### Project
 
 
-### Personal project
 
-|                       | subject                                                 | my main language of project                                  |      | source link                                        | Introduce                          |
-| --------------------- | :------------------------------------------------------ | :----------------------------------------------------------- | ---- | -------------------------------------------------- | ---------------------------------- |
-| **cls**               | You can divide files and folders with the cls command.  | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) |      | [source link](https://github.com/tetgo/cls)        |                                    |
-| **wm(wallet maker)**  | Command lIne project, wallet maker with html , rest     | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) |      | [source link](https://github.com/tetgo/wm)         |                                    |
-| **ToyProject**        | clickgame, image detect,  Coin price view, macos header | ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) |      | [source link](https://github.com/tetgo/ToyProject) | [introduce](https://wooong.dev/38) |
-| **pow of blockchain** | pow lecture of nomad coder                              | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) |      | [source link](https://github.com/tetgo/powtest)    |                                    |
-
-
+|                       | subject                                                 |      |      | source link                                        | Introduce                          |
+| --------------------- | :------------------------------------------------------ | :--- | ---- | -------------------------------------------------- | ---------------------------------- |
+| **cls**               | You can divide files and folders with the cls command.  |      |      | [source link](https://github.com/cothi/cls)        |                                    |
+| **wm(wallet maker)**  | Command lIne project, wallet maker with html , rest     |      |      | [source link](https://github.com/cothi/wm)         |                                    |
+| **ToyProject**        | clickgame, image detect,  Coin price view, macos header |      |      | [source link](https://github.com/cothi/ToyProject) | [introduce](https://wooong.dev/38) |
+| **pow of blockchain** | pow lecture of nomad coder                              |      |      | [source link](https://github.com/cothi/powtest)    |                                    |
 
 
 
@@ -171,15 +180,11 @@ now, self maintenance (2022.04 ~)
 
 - Total (2021.06 ~ )
 
-   [ref](https://soomgo.com/profile/users/5006849?from=my_info_preview) - 4 cases
+   [ref url link](https://soomgo.com/profile/users/5006849?from=my_info_preview) - 5 cases
 
 - blockchain validator 
 
   2022.01 ~
-
-> hope that what i do helps the world, and it is even better if it follows monetization.
-
-
 
 
 
@@ -187,15 +192,17 @@ now, self maintenance (2022.04 ~)
 
 
 
-#### Why are tetgo a developer?
 
-```reStructuredText
-I am having fun with computer related work.
 
-why? just fun
+### cothi summary
 
-It is not a light feeling. I am responsible for what I do.
-```
+
+
+![github profile](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cothi&theme=vue)  
+
+
+
+[![solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=codethinking)](https://solved.ac/profile/codethinking)
 
 
 
@@ -215,4 +222,4 @@ jiungdev@gmail.com
 
 
 
-[Home](https://tetgo.github.io/) 으로 돌아가는 링크 입니다.
+[return home](https://cothi.github.io/) 
