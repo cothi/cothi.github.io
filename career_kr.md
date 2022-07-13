@@ -177,6 +177,11 @@
 
   ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 
-- 개발 관련 외주를 가끔씩 진행하고 있습니다. 
+- 개발 관련 외주를 가끔씩 진행하고 있습니다. (총 6건)
 
-![Screen Shot 2022-07-14 at 3.52.48 AM](/Users/hanjiung/Desktop/Screen Shot 2022-07-14 at 3.52.48 AM.png)
+- 리뷰 
+
+![https://github.com/cothi/cothi.github.io/blob/master/assets/%EC%99%B8%EC%A3%BC.png?raw=true](https://github.com/cothi/cothi.github.io/blob/master/assets/%EC%99%B8%EC%A3%BC.png?raw=true)
+
+
+
