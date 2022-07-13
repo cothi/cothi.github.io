@@ -22,8 +22,6 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 @media screen and (max-width: 500px) {
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
-  .CodeMirror-sizer { margin-left: 0px !important; }
-  .CodeMirror-gutters { display: none !important; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
@@ -51,7 +49,7 @@ sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inh
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
 figure > table { margin: 0px; }
-tr { break-inside: avoid; break-after: auto; }
+thead, tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
@@ -73,6 +71,7 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
 .md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
 .CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
 .md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; }
@@ -87,7 +86,7 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 #write .footnote-line { white-space: pre-wrap; }
 @media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
-  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; padding-bottom: 0px !important; }
   .typora-export * { print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
@@ -130,6 +129,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 }
 a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
 .footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
@@ -226,20 +226,20 @@ mark .md-meta { color: rgb(0, 0, 0); }
     --bg-color: white;
     --side-bar-bg-color: #f5f7f9;
     --control-text-color: #3b454e;
-    --primary-color: #15ac8e;
-    --primary-btn-border-color: #15ac8e;
+    --primary-color: #3884ff;
+    --primary-btn-border-color: #3884ff;
     --active-file-bg-color: #e6ecf1;
     --active-file-text-color: inherit;
-    --active-file-border-color: #15ac8e;
+    --active-file-border-color: #3884ff;
     --item-hover-text-color: #242a31;
     --item-hover-bg-color: #f5f7f9;
     --window-border: 1px solid #e6ecf1;
     --select-text-font-color: white;
-    --select-text-bg-color: #11977d;
+    --select-text-bg-color: #1968e6;
 
     --md-char-color: #9daab6;
     --heading-char-color: #9daab6;
-    --meta-content-color: #15ac8e;
+    --meta-content-color: #3884ff;
 
     --borders: #e6ecf1;
     --table-border-color: #e6ecf1;
@@ -257,10 +257,10 @@ mark .md-meta { color: rgb(0, 0, 0); }
     --codeboxes-lighter: #1c375f;
     --rawblock-edit-panel-bd: transparent;
 
-    --primary-color-darkest: #083d33;
-    --primary-color-darker2: #0d5748;
-    --primary-color-darker: #11977d;
-    --focus-ring-color: #15ac8e;
+    --primary-color-darkest: #001f50;
+    --primary-color-darker2: #00307c;
+    --primary-color-darker: #1968e6;
+    --focus-ring-color: #3884ff;
 
     --danger-color: rgb(255, 70, 66);
 
@@ -284,6 +284,10 @@ html,
     font-size: 16px;
 }
 
+kbd {
+    font-family: var(--font-family);
+}
+
 body {
     background: var(--bg-color);
     font-family: var(--font-family);
@@ -295,10 +299,10 @@ body {
 
 #write {
     font-size: 0.95rem;
-    max-width: 1200px;
+    max-width: 850px;
     margin: 0 auto;
     margin-top: 1rem;
-    padding: 15px;
+    padding: 30px;
     padding-bottom: 100px;
     position: static;
     width: 100%;
@@ -433,6 +437,21 @@ h6 {
     margin-bottom: 0.5rem;
 }
 
+#write > h1.md-focus:before,
+#write > h2.md-focus:before,
+#write > h3.md-focus:before,
+#write > h4.md-focus:before,
+#write > h5.md-focus:before,
+#write > h6.md-focus:before {
+    color: var(--light-text-color);
+    border: none;
+    position: absolute;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0px;
+    line-height: 1;
+}
+
 #write > h1.md-focus:before {
     content: "h1";
     top: 1.15rem;
@@ -467,21 +486,6 @@ h6 {
     content: "h6";
     top: 0.25rem;
     left: -1.75rem;
-}
-
-#write > h1.md-focus:before,
-#write > h2.md-focus:before,
-#write > h3.md-focus:before,
-#write > h4.md-focus:before,
-#write > h5.md-focus:before,
-#write > h6.md-focus:before {
-    color: var(--light-text-color);
-    border: none;
-    position: absolute;
-    font-size: 0.9rem;
-    font-weight: 500;
-    padding: 0px;
-    line-height: 1;
 }
 
 h1:first-child,
@@ -898,7 +902,7 @@ table tr td:last-child {
 .md-fences,
 tt {
     border-radius: 0.3rem;
-    color: #ffffff;
+    color: white;
     padding: 1.5rem;
     font-size: 0.8rem;
 }
@@ -912,7 +916,7 @@ code {
     -webkit-box-decoration-break: clone;
 }
 
-.md-fences .CodeMirror div.CodeMirror-cursor,
+.md-fences div.CodeMirror-cursor,
 #typora-source div.CodeMirror-cursor {
     border-left: solid 1px white;
 }
@@ -1174,7 +1178,7 @@ input[type="checkbox"]:checked:after {
     color: #156db6;
 }
 
-.md-mathblock-input span.cm-bracket {
+.md-rawblock-input span.cm-bracket {
     color: var(--light-text-color);
 }
 
@@ -1226,14 +1230,14 @@ footer.ty-footer {
     opacity: 1;
 }
 
-.sidebar-tab {
-    text-transform: capitalize;
-    color: var(--light-text-color);
-}
-
 .info-panel-tab-border {
     color: var(--primary-color);
     border-radius: 2px;
+}
+
+.sidebar-tab {
+    text-transform: capitalize;
+    color: var(--light-text-color);
 }
 
 #ty-sidebar-search-back-btn {
@@ -1397,7 +1401,7 @@ body.html-for-mac .ty-search-item {
     margin-left: 24px;
 }
 
-body.html-for-mac #typora-sidebar .ty-search-item-line {
+body.o #typora-sidebar .ty-search-item-line {
     transition-duration: 0.2s;
 }
 
@@ -1438,16 +1442,6 @@ body.html-for-mac #typora-sidebar .ty-search-item-line {
     opacity: 0.9;
 }
 
-#typora-sidebar input.file-list-item-file-name {
-    margin: 0.5rem 0rem 0.5rem 0.7rem;
-    padding: 0.4rem !important;
-    line-height: 1rem;
-    float: right;
-    border-radius: 0.3rem;
-    font-weight: 500;
-    background-color: white !important;
-}
-
 #typora-sidebar .file-list-item-count {
     font-size: 0.75rem;
     background-color: var(--primary-color);
@@ -1459,6 +1453,16 @@ body.html-for-mac #typora-sidebar .ty-search-item-line {
     line-height: 1.25rem;
     position: relative;
     top: 0.3rem;
+}
+
+#typora-sidebar input.file-list-item-file-name {
+    margin: 0.5rem 0rem 0.5rem 0.7rem;
+    padding: 0.4rem !important;
+    line-height: 1rem;
+    float: right;
+    border-radius: 0.3rem;
+    font-weight: 500;
+    background-color: white !important;
 }
 
 #typora-sidebar .file-list-item.file-library-file-node {
@@ -1863,9 +1867,9 @@ body.html-for-mac
 .dropdown-menu > .active > a,
 .dropdown-menu > li > a:hover,
 .menu-style-btn.active,
-.auto-suggest-container li:hover,
 .context-menu.dropdown-menu > .active > a,
 .context-menu.dropdown-menu > li > a:hover,
+.auto-suggest-container li:hover,
 .auto-suggest-container li.active {
     color: var(--primary-color);
     background-color: var(--boxes);
@@ -2229,7 +2233,6 @@ html input[type="number"],
     height: 2.1rem !important;
     transition-duration: 0.2s;
     transition-property: border;
-    cursor: text;
 }
 
 select {
@@ -2237,7 +2240,8 @@ select {
 }
 
 input[type="text"],
-input[type="number"] {
+input[type="number"],
+#md-grid-height {
     cursor: text;
 }
 
@@ -2562,7 +2566,7 @@ textarea:focus {
     border: 1px solid transparent;
     color: white !important /*important required*/;
     box-shadow: rgba(116, 129, 141, 0.1) 2px 2px 6px,
-        rgba(26, 168, 139, 0.2) 0px 0px 10px;
+        rgba(56, 132, 255, 0.2) 0px 0px 10px;
 }
 
 #m-import-local:hover .preference-item-hint {
@@ -2580,7 +2584,7 @@ textarea:focus {
     max-width: none;
     padding: 1.5rem;
     background-color: var(--boxes);
-    border-radius: 0.5rem;
+    border-radius: 0rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 1.5rem;
@@ -2692,9 +2696,9 @@ kbd {
 
 
  @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}
-</style><title>career</title>
+</style><title>career_kr</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><h3 id='han-jiung---cothi'><span>Han Jiung - cothi</span></h3><p><span>now, self maintenance (2022.04 ~)</span></p><p>&nbsp;</p><hr /><p>&nbsp;</p><h4 id='my-past-table-of-contents'><span>my past table of contents</span></h4><p>&nbsp;</p><p><a href='#education'><span>1. Education</span></a></p><p><a href='#training-course'><span>2. Training Course</span></a></p><p><a href='#awards'><span>3. Awards</span></a></p><p><a href='#certificate'><span>4.Certificate</span></a></p><p><a href='#team-project'><span>5. Team Project</span></a></p><p><a href='#team-project'><span>6. Personal Project</span></a></p><p><a href='#freelancer'><span>7. Freelancer</span></a></p><p>&nbsp;</p><hr /><p>&nbsp;</p><h3 id='education'><span>Education</span></h3><ul><li><p><span>Future education center CHUNG-ANG UNIVERSITY - Graduate</span></p><ul><li><span>Computer Engineering BS (2019.02 ~ 2021.02)</span></li><li><span>Credit 4.36 / 4.5</span></li></ul><p>&nbsp;</p></li><li><p><span>K-Shield Jr. 6기 - Completion</span></p><ul><li><p><span>computer emergency response team course (2021.03 ~ 2021. 06)</span></p><blockquote><p><span>Ref, </span><a href='http://kshieldjr.org/tlnt_mu01_002.do' target='_blank' class='url'>http://kshieldjr.org/tlnt_mu01_002.do</a></p></blockquote></li></ul><p>&nbsp;</p></li><li><p><span>codestates beb 02기 - Completion</span></p><ul><li><p><span>blockchain couse (2021. 08 ~ 2022. 04)</span></p><blockquote><p><span>Ref, </span><a href='https://codestates.com/course/blockchain?gclid=CjwKCAjw9LSSBhBsEiwAKtf0n4D5ZYWt762pafhjdZbMOucAs1GQJT4JE6gag0lfMIrOZkrDLjpyuBoCiIMQAvD_BwE' target='_blank' class='url'>https://codestates.com/course/blockchain?gclid=CjwKCAjw9LSSBhBsEiwAKtf0n4D5ZYWt762pafhjdZbMOucAs1GQJT4JE6gag0lfMIrOZkrDLjpyuBoCiIMQAvD_BwE</a></p></blockquote></li></ul></li></ul><p>&nbsp;</p><p>&nbsp;</p><hr /><p>&nbsp;</p><p>&nbsp;</p><h3 id='training-course'><span>Training Course</span></h3><ul><li><span>National Information Society Agency(NIA), Data Creator Camp (2020.09.26)</span></li><li><span>AI Yangjae Hub, Embedded deep learning process using JETSON TX2 (2020.09.02 ~ 04)</span></li><li><span>Korea Computing Industry Association(K-CIA), Pytorch - Artificial Neural Network Deep Learning Model Development (2020.08.26 ~ 28)</span></li><li><span>National IT Promotion Agency(nipa), Utilize AI Technology (2020.07 ~ 08 )</span></li><li><span>Game User Protection Center(GUCC), Blockchain LV.99 (2020.01.17~23)</span></li></ul><p>&nbsp;</p><p>&nbsp;</p><hr /><p>&nbsp;</p><h3 id='awards'><span>Awards</span></h3><ul><li><p><span>Jeju MBC Marathon 20th Division 42.195km 1st place</span></p></li><li><p><span>Jeju TourismMarathon 20th Division 10km 3st place</span></p></li><li><p><span>red cross blood donation, (silver, gold)</span></p></li><li><p><span>Blockchain hackathon competition 2st place, Game User Protection Center</span></p><blockquote><p><span>ref</span></p><ol start='' ><li><a href='https://www.mk.co.kr/news/it/view/2020/02/142651/' target='_blank' class='url'>https://www.mk.co.kr/news/it/view/2020/02/142651/</a></li><li><a href='http://gamefocus.co.kr/detail.php?number=102149' target='_blank' class='url'>http://gamefocus.co.kr/detail.php?number=102149</a></li></ol></blockquote></li></ul><p>&nbsp;</p><hr /><p>&nbsp;</p><h3 id='certificate'><span>Certificate</span></h3><ul><li><p><span>Document</span><span>	</span></p><ul><li><span>Microsoft Office Specialist 2007 Master</span></li><li><span>KCCI LICENSE (Computer User in the field of Spreadsheet &amp; Database Level - 1)</span></li><li><span>GTQ(Graphic Technology Qualification)  Level - 2</span></li></ul></li><li><p><span>job performance</span></p><ul><li><span>ICQA LICENSE (Network Manager Level 2)</span></li><li><span>KDFS LICENSE (digital forensic Level 2, just written test )</span></li><li><span>HRDK LICENSE (Engineer Information Processing, just written test)</span></li></ul></li></ul><p>&nbsp;</p><hr /><p>&nbsp;</p><h2 id='project-1'><span>Project </span></h2><p><img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=cothi&amp;theme=vue" referrerpolicy="no-referrer"><span> </span></p><p>&nbsp;</p><p>&nbsp;</p><h3 id='team-project'><span>Team project</span></h3><figure><table><thead><tr><th>&nbsp;</th><th style='text-align:left;' ><span>subject</span></th><th style='text-align:left;' ><span>my main language of this project</span></th><th>&nbsp;</th><th><span>source link</span></th><th><span>Introduce</span></th></tr></thead><tbody><tr><td><strong><span>pirea (pixel Korea)</span></strong></td><td style='text-align:left;' ><em><strong><span>Pirea(Pixel Korea) project</span></strong></em><span> allows you to own the land you want on a map made of pixels.</span></td><td style='text-align:left;' ><img src="https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&amp;logo=solidity&amp;logoColor=white" referrerpolicy="no-referrer" alt="Solidity"><span> </span><img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&amp;logo=mysql&amp;logoColor=white" referrerpolicy="no-referrer" alt="MySQL"><span> </span><img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&amp;logo=fastapi" referrerpolicy="no-referrer" alt="FastAPI"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&amp;logo=python&amp;logoColor=ffdd54" referrerpolicy="no-referrer" alt="Python"><span>    </span><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&amp;logo=react&amp;logoColor=%2361DAFB" referrerpolicy="no-referrer" alt="React"><span> </span><img src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&amp;logo=nestjs&amp;logoColor=white" referrerpolicy="no-referrer" alt="NestJS"></td><td>&nbsp;</td><td><a href='https://github.com/codestates/BEB_02_pirea'><span>source link</span></a></td><td><a href='https://drive.google.com/file/d/1-8TBhvpNMflwMd7jhKCoID51mSIfuWb9/view?usp=sharing'><span>video player</span></a></td></tr><tr><td><strong><span>Calculate (CECOM-CAU)</span></strong></td><td style='text-align:left;' ><span>Calculator over 2.1 billion</span></td><td style='text-align:left;' ><img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&amp;logo=java&amp;logoColor=white" referrerpolicy="no-referrer" alt="Java"></td><td>&nbsp;</td><td><a href='https://github.com/CECOM-CAU/CECOME_CALCULATE.git'><span>source link</span></a></td><td>&nbsp;</td></tr><tr><td><strong><span>Via Lactea (team, Ojak)</span></strong></td><td style='text-align:left;' ><span>Project Via Lactea is the pletform that connects devloper and tester</span></td><td style='text-align:left;' ><img src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&amp;logo=vuedotjs&amp;logoColor=%234FC08D" referrerpolicy="no-referrer" alt="Vue.js"><span> </span><img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&amp;logo=firebase" referrerpolicy="no-referrer" alt="Firebase"></td><td>&nbsp;</td><td><a href='https://github.com/toto1444/Project-Via-Lactea'><span>source link</span></a></td><td>&nbsp;</td></tr><tr><td><strong><span>DocuFree (kshield jr)</span></strong></td><td style='text-align:left;' ><span>document malware detection,  Work created with a graphic interface related to malicious code</span></td><td style='text-align:left;' ><img src="https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&amp;logo=Qt&amp;logoColor=white" referrerpolicy="no-referrer" alt="Qt"><span>   </span><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&amp;logo=python&amp;logoColor=ffdd54" referrerpolicy="no-referrer" alt="Python"></td><td>&nbsp;</td><td><a href='https://github.com/toto1444/Project-Via-Lactea'><span>source link</span></a><span> ,   </span><a href='https://github.com/tetgo/GUI'><span>GUI</span></a></td><td>&nbsp;</td></tr></tbody></table></figure><p>&nbsp;</p><p>&nbsp;</p><hr /><p>&nbsp;</p><h3 id='project-2'><span>Project</span></h3><p>&nbsp;</p><figure><table><thead><tr><th>&nbsp;</th><th style='text-align:left;' ><span>subject</span></th><th style='text-align:left;' >&nbsp;</th><th>&nbsp;</th><th><span>source link</span></th><th><span>Introduce</span></th></tr></thead><tbody><tr><td><strong><span>cls</span></strong></td><td style='text-align:left;' ><span>You can divide files and folders with the cls command.</span></td><td style='text-align:left;' >&nbsp;</td><td>&nbsp;</td><td><a href='https://github.com/cothi/cls'><span>source link</span></a></td><td>&nbsp;</td></tr><tr><td><strong><span>wm(wallet maker)</span></strong></td><td style='text-align:left;' ><span>Command lIne project, wallet maker with html , rest</span></td><td style='text-align:left;' >&nbsp;</td><td>&nbsp;</td><td><a href='https://github.com/cothi/wm'><span>source link</span></a></td><td>&nbsp;</td></tr><tr><td><strong><span>ToyProject</span></strong></td><td style='text-align:left;' ><span>clickgame, image detect,  Coin price view, macos header</span></td><td style='text-align:left;' >&nbsp;</td><td>&nbsp;</td><td><a href='https://github.com/cothi/ToyProject'><span>source link</span></a></td><td><a href='https://wooong.dev/38'><span>introduce</span></a></td></tr><tr><td><strong><span>pow of blockchain</span></strong></td><td style='text-align:left;' ><span>pow lecture of nomad coder</span></td><td style='text-align:left;' >&nbsp;</td><td>&nbsp;</td><td><a href='https://github.com/cothi/powtest'><span>source link</span></a></td><td>&nbsp;</td></tr></tbody></table></figure><p>&nbsp;</p><hr /><p>&nbsp;</p><p>&nbsp;</p><h3 id='freelancer'><span>Freelancer </span></h3><ul><li><p><span>main thing of project</span></p><p><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&amp;logo=python&amp;logoColor=ffdd54" referrerpolicy="no-referrer" alt="Python"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&amp;logo=javascript&amp;logoColor=%23F7DF1E" referrerpolicy="no-referrer" alt="JavaScript"><span> </span><img src="https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&amp;logo=googledrive&amp;logoColor=white" referrerpolicy="no-referrer" alt="Google Drive"><span> </span><img src="https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&amp;logo=google-cloud&amp;logoColor=white" referrerpolicy="no-referrer" alt="Google Cloud"></p></li><li><p><span>IDE </span></p><p><img src="https://img.shields.io/badge/NeoVim-%2357A143.svg?&amp;style=for-the-badge&amp;logo=neovim&amp;logoColor=white" referrerpolicy="no-referrer" alt="Neovim"><span> </span><img src="https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&amp;logo=google-cloud&amp;logoColor=white" referrerpolicy="no-referrer" alt="Google Cloud"><span> </span></p></li><li><p><span>Total (2021.06 ~ )</span></p><p><a href='https://soomgo.com/profile/users/5006849?from=my_info_preview'><span>ref url link</span></a><span> - 5 cases</span></p></li><li><p><span>blockchain validator </span></p><p><span>2022.01 ~</span></p></li></ul><p>&nbsp;</p><hr /><p>&nbsp;</p><p>&nbsp;</p><h3 id='cothi-summary'><span>cothi summary</span></h3><p>&nbsp;</p><p><img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cothi&amp;theme=vue" referrerpolicy="no-referrer" alt="github profile"><span>  </span></p><p>&nbsp;</p><p><a href='https://solved.ac/profile/codethinking'><img src="http://mazassumnida.wtf/api/generate_badge?boj=codethinking" referrerpolicy="no-referrer" alt="solved.ac Profile"></a></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><hr /><p>&nbsp;</p><p>&nbsp;</p><h4 id='contact'><span>contact</span></h4><p><a href='mailto:jiungdev@gmail.com' target='_blank' class='url'>jiungdev@gmail.com</a></p><p>&nbsp;</p><p><a href='https://cothi.github.io/'><span>return home</span></a><span> </span></p></div></div>
+<div id='write'  class=''><h2 id='한지웅---developer'><span>한지웅 - Developer</span></h2><p>&nbsp;</p><hr /><p>&nbsp;</p><p><span>안녕하세요 </span></p><p>&nbsp;</p><hr /><h4 id='목차'><span>목차</span></h4><p>&nbsp;</p><p><a href='#교육'><span>1. 교육</span></a></p><p><a href='# 훈련'><span>2. 훈련</span></a></p><p><a href='#수상'><span>3. 수상</span></a></p><p><a href='# 자격증'><span>4.자격증</span></a></p><p><a href='# 팀 프로잭트'><span>5. 팀 프로잭트</span></a></p><p><a href='# 개인 프로잭트'><span>6. 개인 프로잭트</span></a></p><p><a href='# 프리랜서'><span>7. 프리랜서</span></a></p><p>&nbsp;</p><hr /><p>&nbsp;</p><h3 id='교육'><span>교육</span></h3><p>&nbsp;</p><ul><li><p><span>중앙대학교 미래교육원 </span></p><ul><li><span>컴퓨터 공학 - 보안 (2019.02 ~ 2021.02)</span></li><li><span>학점 4.36 / 4.5</span></li></ul><p>&nbsp;</p></li></ul><ul><li><p><span>K-Shield Jr. 6기 - Completion</span></p><ul><li><p><span>보안사고 분석대응 과정  (2021.03 ~ 2021. 06)</span></p><blockquote><p><span>Ref, </span><a href='http://kshieldjr.org/tlnt_mu01_002.do' target='_blank' class='url'>http://kshieldjr.org/tlnt_mu01_002.do</a></p></blockquote></li></ul><ul><li><p><span>팀 프로잭트 - 문서 악성코드 탐지기 진행</span></p><p>&nbsp;</p></li></ul></li><li><p><span>codestates beb 02기 - Completion</span></p><ul><li><p><span>블록체인 코스 (2021. 08 ~ 2022. 04)</span></p><blockquote><p><span>Ref, </span><a href='https://codestates.com/course/blockchain?gclid=CjwKCAjw9LSSBhBsEiwAKtf0n4D5ZYWt762pafhjdZbMOucAs1GQJT4JE6gag0lfMIrOZkrDLjpyuBoCiIMQAvD_BwE' target='_blank' class='url'>https://codestates.com/course/blockchain?gclid=CjwKCAjw9LSSBhBsEiwAKtf0n4D5ZYWt762pafhjdZbMOucAs1GQJT4JE6gag0lfMIrOZkrDLjpyuBoCiIMQAvD_BwE</a></p></blockquote></li><li><p><span>팀 프로잭트 - 한국을 픽셀로 나눈 뒤 NFT로 변환 및 부동산 거래 제공</span></p></li></ul></li></ul><hr /><p>&nbsp;</p><h3 id='교육-훈련'><span>교육 훈련</span></h3><p>&nbsp;</p><ul><li><p><span>National Information Society Agency(NIA), Data Creator Camp (2020.09.26)</span></p><ul><li><span>AI 데이터 훈련 </span></li></ul></li><li><p><span>AI Yangjae Hub, Embedded deep learning process using JETSON TX2 (2020.09.02 ~ 04)</span></p><ul><li><span>AI 로 학습 뒤, 로봇이 사람을 추적하는 것을 학습 훈련 </span></li></ul></li><li><p><span>National IT Promotion Agency(nipa), Utilize AI Technology (2020.07 ~ 08 )</span></p><ul><li><span>AI 로 할 수 있는 것들을 훈련 및 학습</span></li></ul></li><li><p><span>Game User Protection Center(GUCC), Blockchain LV.99 (2020.01.17~23)</span></p><ul><li><span>블록체인 관련 수업 훈련</span></li><li><span> 팀 프로잭트 - </span><a href='https://www.mk.co.kr/news/it/view/2020/02/142651/'><span>EOS.블록체인을 이용한 Dapp을 만들어 유령 수술을 방지하는 아이디어 경연</span></a></li></ul></li></ul><p>&nbsp;</p><p>&nbsp;</p><hr /><p>&nbsp;</p><h3 id='수상'><span>수상</span></h3><ul><li><p><span>Jeju MBC 마라톤 20대 부문  42.195km 1등</span></p></li><li><p><span>Jeju 관광 마라톤 20대 부문 10km 3등</span></p></li><li><p><span>블록체인 헤커톤 2등, Game User Protection Center</span></p><blockquote><p><span>ref</span></p><ol><li><a href='https://www.mk.co.kr/news/it/view/2020/02/142651/' target='_blank' class='url'>https://www.mk.co.kr/news/it/view/2020/02/142651/</a></li><li><a href='http://gamefocus.co.kr/detail.php?number=102149' target='_blank' class='url'>http://gamefocus.co.kr/detail.php?number=102149</a></li></ol></blockquote></li></ul><p>&nbsp;</p><hr /><p>&nbsp;</p><h3 id='certificate'><span>Certificate</span></h3><ul><li><p><span>Document</span><span>	</span></p><ul><li><span>Microsoft Office Specialist 2007 Master</span></li><li><span>KCCI LICENSE (Computer User in the field of Spreadsheet &amp; Database Level - 1)</span></li><li><span>GTQ(Graphic Technology Qualification)  Level - 2</span></li></ul></li><li><p><span>job performance</span></p><ul><li><span>ICQA LICENSE (Network Manager Level 2)</span></li><li><span>KDFS LICENSE (digital forensic Level 2, just written test )</span></li><li><span>HRDK LICENSE (Engineer Information Processing, just written test)</span></li></ul></li></ul><p>&nbsp;</p><hr /><p>&nbsp;</p><hr /><p>&nbsp;</p><p>&nbsp;</p><h3 id='team-project'><span>Team project</span></h3><figure><table><thead><tr><th>&nbsp;</th><th style='text-align:left;' ><span>subject</span></th><th style='text-align:left;' ><span>my main language of this project</span></th><th>&nbsp;</th><th><span>source link</span></th><th><span>Introduce</span></th></tr></thead><tbody><tr><td><strong><span>pirea (pixel Korea)</span></strong></td><td style='text-align:left;' ><em><strong><span>Pirea(Pixel Korea) project</span></strong></em><span> allows you to own the land you want on a map made of pixels.</span></td><td style='text-align:left;' ><img src="https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&amp;logo=solidity&amp;logoColor=white" referrerpolicy="no-referrer" alt="Solidity"><span> </span><img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&amp;logo=mysql&amp;logoColor=white" referrerpolicy="no-referrer" alt="MySQL"><span> </span><img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&amp;logo=fastapi" referrerpolicy="no-referrer" alt="FastAPI"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&amp;logo=python&amp;logoColor=ffdd54" referrerpolicy="no-referrer" alt="Python"><span>    </span><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&amp;logo=react&amp;logoColor=%2361DAFB" referrerpolicy="no-referrer" alt="React"><span> </span><img src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&amp;logo=nestjs&amp;logoColor=white" referrerpolicy="no-referrer" alt="NestJS"></td><td>&nbsp;</td><td><a href='https://github.com/codestates/BEB_02_pirea'><span>source link</span></a></td><td><a href='https://drive.google.com/file/d/1-8TBhvpNMflwMd7jhKCoID51mSIfuWb9/view?usp=sharing'><span>video player</span></a></td></tr><tr><td><strong><span>Calculate (CECOM-CAU)</span></strong></td><td style='text-align:left;' ><span>Calculator over 2.1 billion</span></td><td style='text-align:left;' ><img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&amp;logo=java&amp;logoColor=white" referrerpolicy="no-referrer" alt="Java"></td><td>&nbsp;</td><td><a href='https://github.com/CECOM-CAU/CECOME_CALCULATE.git'><span>source link</span></a></td><td><span>GUI를 만드는 부분을 기여</span></td></tr><tr><td><strong><span>Via Lactea (team, Ojak)</span></strong></td><td style='text-align:left;' ><span>Project Via Lactea is the pletform that connects devloper and tester</span></td><td style='text-align:left;' ><img src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&amp;logo=vuedotjs&amp;logoColor=%234FC08D" referrerpolicy="no-referrer" alt="Vue.js"><span> </span><img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&amp;logo=firebase" referrerpolicy="no-referrer" alt="Firebase"></td><td>&nbsp;</td><td><a href='https://github.com/toto1444/Project-Via-Lactea'><span>source link</span></a></td><td><span>팀장을 맡으며 코드를 짜는 부분을 맡음</span></td></tr><tr><td><strong><span>DocuFree (kshield jr)</span></strong></td><td style='text-align:left;' ><span>document malware detection,  Work created with a graphic interface related to malicious code</span></td><td style='text-align:left;' ><img src="https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&amp;logo=Qt&amp;logoColor=white" referrerpolicy="no-referrer" alt="Qt"><span>   </span><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&amp;logo=python&amp;logoColor=ffdd54" referrerpolicy="no-referrer" alt="Python"></td><td>&nbsp;</td><td><a href='https://github.com/toto1444/Project-Via-Lactea'><span>source link</span></a><span> ,   </span><a href='https://github.com/tetgo/GUI'><span>GUI</span></a></td><td><span>GUI를 짜는 부분을 맡음</span></td></tr></tbody></table></figure><p>&nbsp;</p><p>&nbsp;</p><hr /><p>&nbsp;</p><h3 id='project'><span>Project</span></h3><p>&nbsp;</p><figure><table><thead><tr><th>&nbsp;</th><th style='text-align:left;' ><span>subject</span></th><th style='text-align:left;' >&nbsp;</th><th>&nbsp;</th><th><span>source link</span></th><th><span>Introduce</span></th></tr></thead><tbody><tr><td><strong><span>cls</span></strong></td><td style='text-align:left;' ><span>You can divide files and folders with the cls command.</span></td><td style='text-align:left;' >&nbsp;</td><td>&nbsp;</td><td><a href='https://github.com/cothi/cls'><span>source link</span></a></td><td>&nbsp;</td></tr><tr><td><strong><span>wm(wallet maker)</span></strong></td><td style='text-align:left;' ><span>Command lIne project, wallet maker with html , rest</span></td><td style='text-align:left;' >&nbsp;</td><td>&nbsp;</td><td><a href='https://github.com/cothi/wm'><span>source link</span></a></td><td><span>블록체인 지갑을 만들 수 있는 프로잭트</span></td></tr><tr><td><strong><span>ToyProject</span></strong></td><td style='text-align:left;' ><span>clickgame, image detect,  Coin price view, macos header</span></td><td style='text-align:left;' >&nbsp;</td><td>&nbsp;</td><td><a href='https://github.com/cothi/ToyProject'><span>source link</span></a></td><td><a href='https://wooong.dev/38'><span>introduce</span></a></td></tr><tr><td><strong><span>pow of blockchain</span></strong></td><td style='text-align:left;' ><span>pow lecture of nomad coder</span></td><td style='text-align:left;' >&nbsp;</td><td>&nbsp;</td><td><a href='https://github.com/cothi/powtest'><span>source link</span></a></td><td><span>pow 블록체인 네트워크를 클론 코딩을 하여 진행</span></td></tr></tbody></table></figure><p>&nbsp;</p><hr /><hr /><p>&nbsp;</p><h3 id='프리랜서---총-6건'><span>프리랜서 - 총 6건</span></h3><ul><li><p><a href='https://soomgo.com/profile#id_profile_review'><span>main thing of project</span></a></p><p><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&amp;logo=python&amp;logoColor=ffdd54" referrerpolicy="no-referrer" alt="Python"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&amp;logo=javascript&amp;logoColor=%23F7DF1E" referrerpolicy="no-referrer" alt="JavaScript"><span> </span><img src="https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&amp;logo=googledrive&amp;logoColor=white" referrerpolicy="no-referrer" alt="Google Drive"><span> </span><img src="https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&amp;logo=google-cloud&amp;logoColor=white" referrerpolicy="no-referrer" alt="Google Cloud"></p></li></ul><ul><li><span>개발 관련 외주를 가끔씩 진행하고 있습니다. (총 6건)</span></li></ul><ul><li><span>리뷰 </span></li></ul><p><img src="https://github.com/cothi/cothi.github.io/blob/master/assets/%EC%99%B8%EC%A3%BC.png?raw=true" referrerpolicy="no-referrer" alt="https://github.com/cothi/cothi.github.io/blob/master/assets/%EC%99%B8%EC%A3%BC.png?raw=true"></p><p>&nbsp;</p><p>&nbsp;</p></div></div>
 </body>
 </html>
