@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import * as color from './utils/color'
 import Snowfall from 'react-snowfall'
 import { Link } from 'react-router-dom'
-import { basename } from 'path'
+import { Icon } from '@iconify/react'
 
 const Main = styled.div`
     background-color: ${color.mainBgColor};
@@ -21,6 +21,11 @@ const IntroText = styled.div`
 `
 
 const LinkWrapper = styled.div`
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, #f684e6 0%, orange 100%);
+    border-image-slice: 1;
+
+    padding: 10px;
     display: flex;
     font-size: 24px;
     width: 100%;
@@ -58,7 +63,14 @@ function App() {
             if (letter.length === currentText.length) {
                 count++
             }
-            setTimeout(type, 150)
+
+            if (index === currentText.length) {
+                const icon = document.querySelector('#icon-link') as HTMLElement
+                if (icon) {
+                    icon.setAttribute('style', 'display: block; color: #fff')
+                }
+            }
+            setTimeout(type, 100)
         }
         type()
     }
@@ -71,15 +83,27 @@ function App() {
             <Snowfall snowflakeCount={100} />
             <ContentWrapper>
                 <IntroText id="text"></IntroText>
-                <LinkWrapper>
-                    <Link to="/portfolio">Portfolio</Link>
-                    <a href="https://github.com/cothi" target="_blank">
-                        Github
-                    </a>
-                    <a href="https://wooong-dev.tistory.com/" target="_blank">
-                        Blog
-                    </a>
-                </LinkWrapper>
+                <div>
+                    <Icon
+                        id="icon-link"
+                        icon="mdi:link-variant"
+                        width="35"
+                        color="#fff"
+                        style={{ display: 'none' }}
+                    />
+                    <LinkWrapper>
+                        <Link to="/portfolio">Portfolio</Link>
+                        <a href="https://github.com/cothi" target="_blank">
+                            Github
+                        </a>
+                        <a
+                            href="https://wooong-dev.tistory.com/"
+                            target="_blank"
+                        >
+                            Blog
+                        </a>
+                    </LinkWrapper>
+                </div>
             </ContentWrapper>
         </Main>
     )
